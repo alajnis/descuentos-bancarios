@@ -3,8 +3,8 @@
     {
       "id": 1,
       "banco": "MercadoPago",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "Billetera VirtualMercadoPago",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual MercadoPago",
       "tarjeta_marca": null,
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -19,16 +19,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.mercadopago.com.ar/descuentos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351149Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761667Z"
     },
     {
       "id": 2,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoAmex",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Amex",
       "tarjeta_marca": "Amex",
       "comercio": "Coto Digital",
       "categoria": "Supermercado",
@@ -37,16 +37,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350460Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761530Z"
     },
     {
       "id": 3,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -61,16 +61,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350548Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761556Z"
     },
     {
       "id": 4,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -79,16 +79,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350633Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761577Z"
     },
     {
       "id": 5,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Billetera VirtualMercadoPago",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual MercadoPago",
       "tarjeta_marca": null,
       "comercio": "Supermercados",
       "categoria": "Supermercado",
@@ -103,16 +103,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350706Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761590Z"
     },
     {
       "id": 6,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Supermercados",
       "categoria": "Supermercado",
@@ -121,16 +121,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350918Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761618Z"
     },
     {
       "id": 7,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -139,16 +139,16 @@
       "dias_vigencia": [
         "lunes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350941Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761625Z"
     },
     {
       "id": 8,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -158,16 +158,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350948Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761626Z"
     },
     {
       "id": 9,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -182,16 +182,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350971Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761630Z"
     },
     {
       "id": 10,
       "banco": "ICBC",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Combustible",
       "categoria": "Combustible",
@@ -200,16 +200,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.icbc.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351111Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761659Z"
     },
     {
       "id": 11,
       "banco": "ICBC",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -218,16 +218,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.icbc.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351128Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761662Z"
     },
     {
       "id": 12,
       "banco": "MercadoPago",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "Billetera VirtualMercadoPago",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual MercadoPago",
       "tarjeta_marca": null,
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -242,16 +242,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.mercadopago.com.ar/descuentos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351156Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761668Z"
     },
     {
       "id": 13,
       "banco": "Modo",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/modo-5.svg",
-      "metodo_pago": "QRModo",
+      "logo_url": null,
+      "metodo_pago": "QR Modo",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -266,16 +266,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.modo.com.ar/promos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351216Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761679Z"
     },
     {
       "id": 14,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -284,16 +284,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350421Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761518Z"
     },
     {
       "id": 15,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Arredo",
       "categoria": "Hogar",
@@ -302,16 +302,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350473Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761533Z"
     },
     {
       "id": 16,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -326,16 +326,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350561Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761560Z"
     },
     {
       "id": 17,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -344,16 +344,16 @@
       "dias_vigencia": [
         "lunes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350574Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761563Z"
     },
     {
       "id": 18,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -362,16 +362,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350598Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761573Z"
     },
     {
       "id": 19,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -386,16 +386,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350647Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761579Z"
     },
     {
       "id": 20,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Vea",
       "categoria": "Supermercado",
@@ -410,16 +410,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350694Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761587Z"
     },
     {
       "id": 21,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -429,16 +429,16 @@
         "martes",
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350720Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761591Z"
     },
     {
       "id": 22,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -447,16 +447,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351008Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761638Z"
     },
     {
       "id": 23,
       "banco": "MercadoPago",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "Billetera VirtualMercadoPago",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual MercadoPago",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -471,16 +471,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.mercadopago.com.ar/descuentos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351163Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761670Z"
     },
     {
       "id": 24,
       "banco": "MercadoPago",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "Billetera VirtualMercadoPago",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual MercadoPago",
       "tarjeta_marca": null,
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -495,16 +495,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.mercadopago.com.ar/descuentos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351170Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761671Z"
     },
     {
       "id": 25,
       "banco": "Modo",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/modo-5.svg",
-      "metodo_pago": "QRModo",
+      "logo_url": null,
+      "metodo_pago": "QR Modo",
       "tarjeta_marca": null,
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -519,16 +519,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.modo.com.ar/promos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351183Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761676Z"
     },
     {
       "id": 26,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -537,16 +537,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350670Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761582Z"
     },
     {
       "id": 27,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -555,16 +555,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350445Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761526Z"
     },
     {
       "id": 28,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "FarmaPlus",
       "categoria": "Salud",
@@ -579,16 +579,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350486Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761537Z"
     },
     {
       "id": 29,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Vea",
       "categoria": "Supermercado",
@@ -603,16 +603,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350535Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761549Z"
     },
     {
       "id": 30,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Disco",
       "categoria": "Supermercado",
@@ -621,16 +621,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350586Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761570Z"
     },
     {
       "id": 31,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Electro",
       "categoria": "Electro",
@@ -645,16 +645,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350609Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761574Z"
     },
     {
       "id": 32,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Puppis",
       "categoria": "Ropa",
@@ -663,16 +663,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350682Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761583Z"
     },
     {
       "id": 33,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Chango Más",
       "categoria": "Supermercado",
@@ -682,16 +682,16 @@
         "viernes",
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350732Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761593Z"
     },
     {
       "id": 34,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -706,16 +706,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350743Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761594Z"
     },
     {
       "id": 35,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Disco",
       "categoria": "Supermercado",
@@ -724,16 +724,16 @@
       "dias_vigencia": [
         "lunes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350755Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761596Z"
     },
     {
       "id": 36,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Viajes",
       "categoria": "Viajes",
@@ -748,16 +748,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350781Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761599Z"
     },
     {
       "id": 37,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Nike",
       "categoria": "Ropa",
@@ -766,16 +766,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350793Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761600Z"
     },
     {
       "id": 38,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -784,16 +784,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350840Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761608Z"
     },
     {
       "id": 39,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "BV",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -808,16 +808,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350955Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761627Z"
     },
     {
       "id": 40,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -826,16 +826,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350978Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761634Z"
     },
     {
       "id": 41,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Viajes",
       "categoria": "Viajes",
@@ -850,16 +850,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351015Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761641Z"
     },
     {
       "id": 42,
       "banco": "Supervielle",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -868,16 +868,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.supervielle.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351051Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761648Z"
     },
     {
       "id": 43,
       "banco": "ICBC",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Ropa",
       "categoria": "Ropa",
@@ -886,36 +886,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.icbc.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351135Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761664Z"
     },
     {
       "id": 44,
-      "banco": "MercadoPago",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "BV",
-      "tarjeta_marca": null,
-      "comercio": "Ropa",
-      "categoria": "Ropa",
-      "porcentaje": 20,
-      "tope_reintegro": 5000,
-      "dias_vigencia": [
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
-      "link_detalle": "https://www.mercadopago.com.ar/descuentos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351176Z"
-    },
-    {
-      "id": 45,
       "banco": "Modo",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/modo-5.svg",
-      "metodo_pago": "QRModo",
+      "logo_url": null,
+      "metodo_pago": "QR Modo",
       "tarjeta_marca": null,
       "comercio": "Supermercados",
       "categoria": "Supermercado",
@@ -930,35 +910,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.modo.com.ar/promos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351194Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761678Z"
     },
     {
-      "id": 46,
-      "banco": "Modo",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/modo-5.svg",
-      "metodo_pago": "QRModo",
-      "tarjeta_marca": null,
-      "comercio": "Farmacias",
-      "categoria": "Salud",
-      "porcentaje": 20,
-      "tope_reintegro": 5000,
-      "dias_vigencia": [
-        "viernes",
-        "sábado"
-      ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
-      "link_detalle": "https://www.modo.com.ar/promos",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351224Z"
-    },
-    {
-      "id": 47,
+      "id": 45,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Día",
       "categoria": "Supermercado",
@@ -967,16 +928,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350518Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761543Z"
     },
     {
-      "id": 48,
+      "id": 46,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Vea",
       "categoria": "Supermercado",
@@ -985,16 +946,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350621Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761576Z"
     },
     {
-      "id": 49,
+      "id": 47,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1003,16 +964,16 @@
       "dias_vigencia": [
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350805Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761602Z"
     },
     {
-      "id": 50,
+      "id": 48,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Gastronomía",
       "categoria": "Gastronomía",
@@ -1021,16 +982,16 @@
       "dias_vigencia": [
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350877Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761612Z"
     },
     {
-      "id": 51,
+      "id": 49,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Disco",
       "categoria": "Supermercado",
@@ -1039,16 +1000,16 @@
       "dias_vigencia": [
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351001Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761637Z"
     },
     {
-      "id": 52,
+      "id": 50,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -1057,16 +1018,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351021Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761643Z"
     },
     {
-      "id": 53,
+      "id": 51,
       "banco": "Supervielle",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -1075,16 +1036,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.supervielle.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351035Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761646Z"
     },
     {
-      "id": 54,
+      "id": 52,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -1093,16 +1054,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350902Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761615Z"
     },
     {
-      "id": 55,
+      "id": 53,
       "banco": "Banco Galicia",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de DébitoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Débito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -1111,16 +1072,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://beneficios.galicia.ar/",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350499Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761540Z"
     },
     {
-      "id": 56,
+      "id": 54,
       "banco": "BBVA",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -1130,16 +1091,16 @@
         "viernes",
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350659Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761580Z"
     },
     {
-      "id": 57,
+      "id": 55,
       "banco": "Santander",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -1154,16 +1115,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.santander.com.ar/personas/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350770Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761597Z"
     },
     {
-      "id": 58,
+      "id": 56,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de DébitoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Débito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -1172,16 +1133,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350817Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761603Z"
     },
     {
-      "id": 59,
+      "id": 57,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Combustible",
       "categoria": "Combustible",
@@ -1190,16 +1151,16 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350925Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761620Z"
     },
     {
-      "id": 60,
+      "id": 58,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -1208,16 +1169,16 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350985Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761635Z"
     },
     {
-      "id": 61,
+      "id": 59,
       "banco": "Banco Macro",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -1232,16 +1193,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bancomacro.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351028Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761644Z"
     },
     {
-      "id": 62,
+      "id": 60,
       "banco": "Supervielle",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1251,16 +1212,16 @@
         "miércoles",
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.supervielle.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351058Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761650Z"
     },
     {
-      "id": 63,
+      "id": 61,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Vea",
       "categoria": "Supermercado",
@@ -1269,16 +1230,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350864Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761611Z"
     },
     {
-      "id": 64,
+      "id": 62,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1288,16 +1249,16 @@
         "lunes",
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350853Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761610Z"
     },
     {
-      "id": 65,
+      "id": 63,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Billetera VirtualModo",
+      "logo_url": null,
+      "metodo_pago": "Billetera Virtual Modo",
       "tarjeta_marca": null,
       "comercio": "Farmacias",
       "categoria": "Salud",
@@ -1312,16 +1273,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350891Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761614Z"
     },
     {
-      "id": 66,
+      "id": 64,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -1330,34 +1291,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350962Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761629Z"
     },
     {
-      "id": 67,
-      "banco": "Supervielle",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
-      "tarjeta_marca": "Visa",
-      "comercio": "Jumbo",
-      "categoria": "Supermercado",
-      "porcentaje": 12,
-      "tope_reintegro": 3000,
-      "dias_vigencia": [
-        "jueves"
-      ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
-      "link_detalle": "https://www.supervielle.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351065Z"
-    },
-    {
-      "id": 68,
+      "id": 65,
       "banco": "Credicoop",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1367,34 +1310,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.credicoop.coop/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351074Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761651Z"
     },
     {
-      "id": 69,
-      "banco": "Credicoop",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
-      "tarjeta_marca": "Visa",
-      "comercio": "Farmacias",
-      "categoria": "Salud",
-      "porcentaje": 12,
-      "tope_reintegro": 2000,
-      "dias_vigencia": [
-        "viernes"
-      ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
-      "link_detalle": "https://www.credicoop.coop/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351104Z"
-    },
-    {
-      "id": 70,
+      "id": 66,
       "banco": "ICBC",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1403,16 +1328,16 @@
       "dias_vigencia": [
         "sábado"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.icbc.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351142Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761665Z"
     },
     {
-      "id": 71,
+      "id": 67,
       "banco": "Itaú",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Día",
       "categoria": "Supermercado",
@@ -1421,16 +1346,16 @@
       "dias_vigencia": [
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.itau.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350829Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761606Z"
     },
     {
-      "id": 72,
+      "id": 68,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "Tarjeta de CréditoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "COTO",
       "categoria": "Supermercado",
@@ -1440,16 +1365,16 @@
         "lunes",
         "viernes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350911Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761617Z"
     },
     {
-      "id": 73,
+      "id": 69,
       "banco": "Banco Nación",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "TD",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Débito",
       "tarjeta_marca": "Visa",
       "comercio": "Jumbo",
       "categoria": "Supermercado",
@@ -1459,16 +1384,16 @@
         "martes",
         "jueves"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bna.com.ar/Personas/Beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.350934Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761623Z"
     },
     {
-      "id": 74,
+      "id": 70,
       "banco": "Supervielle",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "Tarjeta de DébitoVisa",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Débito Visa",
       "tarjeta_marca": "Visa",
       "comercio": "Día",
       "categoria": "Supermercado",
@@ -1478,16 +1403,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.supervielle.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351042Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761647Z"
     },
     {
-      "id": 75,
+      "id": 71,
       "banco": "Credicoop",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "TC",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito",
       "tarjeta_marca": null,
       "comercio": "Combustible",
       "categoria": "Combustible",
@@ -1496,16 +1421,16 @@
       "dias_vigencia": [
         "lunes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.credicoop.coop/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351090Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761654Z"
     },
     {
-      "id": 76,
+      "id": 72,
       "banco": "Credicoop",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Carrefour",
       "categoria": "Supermercado",
@@ -1514,16 +1439,16 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.credicoop.coop/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351097Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761657Z"
     },
     {
-      "id": 77,
+      "id": 73,
       "banco": "ICBC",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "Tarjeta de CréditoMastercard",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Crédito Mastercard",
       "tarjeta_marca": "Mastercard",
       "comercio": "Supermercados",
       "categoria": "Supermercado",
@@ -1538,16 +1463,16 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.icbc.com.ar/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351119Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761660Z"
     },
     {
-      "id": 78,
+      "id": 74,
       "banco": "Credicoop",
-      "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "TD",
+      "logo_url": null,
+      "metodo_pago": "Tarjeta de Débito",
       "tarjeta_marca": null,
       "comercio": "Supermercados",
       "categoria": "Supermercado",
@@ -1562,17 +1487,15 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-19",
-      "fecha_fin": "2026-07-23",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.credicoop.coop/beneficios",
-      "ultima_actualizacion": "2026-05-24T19:10:54.351083Z"
+      "ultima_actualizacion": "2026-05-24T19:21:58.761653Z"
     }
   ],
-  "total": 78,
-  "ultima_sincronizacion": "2026-05-24T19:10:54.351275Z",
+  "total": 74,
+  "ultima_sincronizacion": "2026-05-24T19:21:58.761696Z",
   "fuentes": [
-    "Base de datos oficial",
-    "Páginas de bancos",
-    "Mayo 2026"
+    "BD Manual - Actualizado manualmente"
   ]
 }
