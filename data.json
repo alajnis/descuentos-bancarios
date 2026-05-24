@@ -1,29 +1,83 @@
 {
   "descuentos": [
     {
-      "id": 10,
+      "id": 1,
       "banco": "MercadoPago",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
-      "metodo_pago": "Billetera Virtual",
+      "metodo_pago": "Billetera Virtual - MercadoPago",
       "tarjeta_marca": null,
       "comercio": "COTO",
       "categoria": "Supermercado",
       "porcentaje": 35,
       "tope_reintegro": 20000,
       "dias_vigencia": [
-        "todos"
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
       ],
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-07-31",
-      "link_detalle": "https://www.mercadopago.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552081Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.mercadopago.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472478Z"
     },
     {
-      "id": 9,
+      "id": 2,
+      "banco": "Santander",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
+      "metodo_pago": "Billetera Virtual - Mercado Pago",
+      "tarjeta_marca": null,
+      "comercio": "Supermercados",
+      "categoria": "Supermercado",
+      "porcentaje": 30,
+      "tope_reintegro": 15000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.santander.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472363Z"
+    },
+    {
+      "id": 3,
+      "banco": "Banco Macro",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
+      "metodo_pago": "Billetera Virtual - Modo",
+      "tarjeta_marca": null,
+      "comercio": "Restaurantes",
+      "categoria": "Restaurantes",
+      "porcentaje": 30,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bancomacro.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472434Z"
+    },
+    {
+      "id": 4,
       "banco": "ICBC",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg",
-      "metodo_pago": "Tarjeta de Crédito",
-      "tarjeta_marca": "Visa",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
       "comercio": "Combustible",
       "categoria": "Combustible",
       "porcentaje": 30,
@@ -31,17 +85,17 @@
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-07",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.icbc.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552080Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.icbc.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472470Z"
     },
     {
-      "id": 1,
+      "id": 5,
       "banco": "BBVA",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
-      "metodo_pago": "Tarjeta de Crédito",
-      "tarjeta_marca": "Visa",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
       "comercio": "COTO",
       "categoria": "Supermercado",
       "porcentaje": 25,
@@ -49,35 +103,65 @@
       "dias_vigencia": [
         "lunes"
       ],
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.bbva.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552058Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bbva.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472319Z"
     },
     {
-      "id": 3,
+      "id": 6,
       "banco": "Santander",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/santander.svg",
-      "metodo_pago": "Tarjeta de Crédito",
-      "tarjeta_marca": "Mastercard",
-      "comercio": "Disco",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
+      "comercio": "Jumbo",
       "categoria": "Supermercado",
       "porcentaje": 25,
       "tope_reintegro": 8000,
       "dias_vigencia": [
-        "todos"
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
       ],
-      "fecha_inicio": "2026-05-10",
-      "fecha_fin": "2026-06-15",
-      "link_detalle": "https://www.santander.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552071Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.santander.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472348Z"
     },
     {
-      "id": 2,
+      "id": 7,
+      "banco": "MercadoPago",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg",
+      "metodo_pago": "Billetera Virtual - MercadoPago",
+      "tarjeta_marca": null,
+      "comercio": "Supermercados",
+      "categoria": "Supermercado",
+      "porcentaje": 25,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.mercadopago.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472485Z"
+    },
+    {
+      "id": 8,
       "banco": "Banco Galicia",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
-      "metodo_pago": "Tarjeta de Débito",
-      "tarjeta_marca": "Visa",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
       "comercio": "Carrefour",
       "categoria": "Supermercado",
       "porcentaje": 20,
@@ -85,36 +169,77 @@
       "dias_vigencia": [
         "martes"
       ],
-      "fecha_inicio": "2026-05-15",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.galicia.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552069Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.galicia.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472281Z"
     },
     {
-      "id": 6,
+      "id": 9,
       "banco": "Banco Macro",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg",
-      "metodo_pago": "Billetera Virtual",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
       "tarjeta_marca": null,
-      "comercio": "Día",
+      "comercio": "COTO",
       "categoria": "Supermercado",
       "porcentaje": 20,
       "tope_reintegro": 4000,
       "dias_vigencia": [
-        "lunes",
         "martes"
       ],
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.bancomacro.com.ar/modo-promos",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552076Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bancomacro.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472442Z"
     },
     {
-      "id": 7,
+      "id": 10,
+      "banco": "Modo",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/modo-5.svg",
+      "metodo_pago": "QR",
+      "tarjeta_marca": null,
+      "comercio": "Supermercados",
+      "categoria": "Supermercado",
+      "porcentaje": 20,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.modo.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472492Z"
+    },
+    {
+      "id": 11,
+      "banco": "BBVA",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/bbva.svg",
+      "metodo_pago": "Tarjeta de Débito - Mastercard",
+      "tarjeta_marca": null,
+      "comercio": "Disco",
+      "categoria": "Supermercado",
+      "porcentaje": 18,
+      "tope_reintegro": 9000,
+      "dias_vigencia": [
+        "miércoles"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bbva.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472333Z"
+    },
+    {
+      "id": 12,
       "banco": "Supervielle",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
-      "metodo_pago": "Tarjeta de Crédito",
-      "tarjeta_marca": "Mastercard",
+      "metodo_pago": "Tarjeta de Crédito - Mastercard",
+      "tarjeta_marca": null,
       "comercio": "Carrefour",
       "categoria": "Supermercado",
       "porcentaje": 18,
@@ -122,35 +247,71 @@
       "dias_vigencia": [
         "jueves"
       ],
-      "fecha_inicio": "2026-05-12",
-      "fecha_fin": "2026-06-15",
-      "link_detalle": "https://www.supervielle.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552077Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.supervielle.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472449Z"
     },
     {
-      "id": 4,
+      "id": 13,
+      "banco": "Banco Galicia",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/galicia.svg",
+      "metodo_pago": "Tarjeta de Débito - Mastercard",
+      "tarjeta_marca": null,
+      "comercio": "COTO",
+      "categoria": "Supermercado",
+      "porcentaje": 15,
+      "tope_reintegro": 8000,
+      "dias_vigencia": [
+        "jueves"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.galicia.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472302Z"
+    },
+    {
+      "id": 14,
       "banco": "Itaú",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
-      "metodo_pago": "Tarjeta de Débito",
-      "tarjeta_marca": "Mastercard",
-      "comercio": "Jumbo",
+      "metodo_pago": "Tarjeta de Débito - Mastercard",
+      "tarjeta_marca": null,
+      "comercio": "Vea",
       "categoria": "Supermercado",
       "porcentaje": 15,
       "tope_reintegro": 5000,
       "dias_vigencia": [
         "miércoles"
       ],
-      "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-06-08",
-      "link_detalle": "https://www.itau.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552073Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.itau.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472377Z"
     },
     {
-      "id": 8,
+      "id": 15,
+      "banco": "Itaú",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/itau-2.svg",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
+      "comercio": "Carrefour",
+      "categoria": "Supermercado",
+      "porcentaje": 12,
+      "tope_reintegro": 6000,
+      "dias_vigencia": [
+        "viernes"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.itau.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472397Z"
+    },
+    {
+      "id": 16,
       "banco": "Credicoop",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/credicoop.svg",
-      "metodo_pago": "Tarjeta de Débito",
-      "tarjeta_marca": "Visa",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
       "comercio": "COTO",
       "categoria": "Supermercado",
       "porcentaje": 12,
@@ -159,35 +320,79 @@
         "sábado",
         "domingo"
       ],
-      "fecha_inicio": "2026-05-02",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.credicoop.coop/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552079Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.credicoop.coop",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472463Z"
     },
     {
-      "id": 5,
+      "id": 17,
       "banco": "Banco Nación",
       "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
-      "metodo_pago": "Tarjeta de Crédito",
-      "tarjeta_marca": "Visa",
-      "comercio": "Vea",
+      "metodo_pago": "Tarjeta de Crédito - Visa",
+      "tarjeta_marca": null,
+      "comercio": "COTO",
       "categoria": "Supermercado",
       "porcentaje": 10,
       "tope_reintegro": 3000,
       "dias_vigencia": [
+        "lunes",
         "viernes"
       ],
-      "fecha_inicio": "2026-05-05",
-      "fecha_fin": "2026-06-30",
-      "link_detalle": "https://www.bna.com.ar/promociones",
-      "ultima_actualizacion": "2026-05-24T14:48:37.552074Z"
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bna.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472417Z"
+    },
+    {
+      "id": 18,
+      "banco": "Supervielle",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/supervielle.svg",
+      "metodo_pago": "Tarjeta de Débito - Visa",
+      "tarjeta_marca": null,
+      "comercio": "Día",
+      "categoria": "Supermercado",
+      "porcentaje": 10,
+      "tope_reintegro": 2500,
+      "dias_vigencia": [
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.supervielle.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472456Z"
+    },
+    {
+      "id": 19,
+      "banco": "Banco Nación",
+      "logo_url": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg",
+      "metodo_pago": "BV",
+      "tarjeta_marca": null,
+      "comercio": "Supermercados",
+      "categoria": "Supermercado",
+      "porcentaje": 5,
+      "tope_reintegro": 2000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "fecha_inicio": "2026-05-09",
+      "fecha_fin": "2026-07-08",
+      "link_detalle": "https://www.bna.com.ar",
+      "ultima_actualizacion": "2026-05-24T14:55:03.472426Z"
     }
   ],
-  "total": 10,
-  "ultima_sincronizacion": "2026-05-24T14:48:37.552899Z",
+  "total": 19,
+  "ultima_sincronizacion": "2026-05-24T14:55:03.472514Z",
   "fuentes": [
-    "MODO.com.ar",
     "Portales de bancos",
-    "Datos recopilados"
+    "MODO.com.ar",
+    "Datos recopilados mayo 2026"
   ]
 }
