@@ -5,214 +5,63 @@ from datetime import datetime, timedelta
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def get_base_datos_completa():
-    """Base de datos DEFINITIVA: 300+ promociones reales de todos los bancos - Mayo 2026"""
-    return [
-        # ===== BANCO GALICIA (50 promociones) =====
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 25, "tope": 15000, "dias": ["jueves"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 20, "tope": 12000, "dias": ["martes"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Amex", "marca": "Amex", "comercio": "Coto Digital", "categoria": "Supermercado", "porcentaje": 30, "tope": 30000, "dias": ["jueves"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "BV Modo", "marca": None, "comercio": "Arredo", "categoria": "Hogar", "porcentaje": 25, "tope": 30000, "dias": ["jueves"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "FarmaPlus", "categoria": "Salud", "porcentaje": 20, "tope": 10000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TD Visa", "marca": "Visa", "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 15, "tope": 6000, "dias": ["miércoles"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Día", "categoria": "Supermercado", "porcentaje": 18, "tope": 4500, "dias": ["viernes"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 20, "tope": 5000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "BV", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 15000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "Chango Más", "categoria": "Supermercado", "porcentaje": 15, "tope": 4000, "dias": ["jueves"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 25, "tope": 10000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "Nike", "categoria": "Ropa", "porcentaje": 30, "tope": 20000, "dias": ["viernes"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "BV Modo", "marca": None, "comercio": "Restaurantes", "categoria": "Gastronomía", "porcentaje": 35, "tope": 20000, "dias": ["jueves", "viernes"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 20, "tope": 8000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Viajes", "categoria": "Viajes", "porcentaje": 20, "tope": 50000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "Electro", "categoria": "Electro", "porcentaje": 18, "tope": 40000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "BV", "marca": None, "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 15, "tope": 8000, "dias": ["miércoles"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Librerías", "categoria": "Educación", "porcentaje": 15, "tope": 5000, "dias": ["todos"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC", "marca": None, "comercio": "Makro", "categoria": "Mayorista", "porcentaje": 12, "tope": 20000, "dias": ["viernes"], "link": "https://beneficios.galicia.ar/"},
-        {"banco": "Banco Galicia", "logo": "https://cdn.worldvectorlogo.com/logos/galicia.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "La Anónima", "categoria": "Supermercado", "porcentaje": 10, "tope": 3000, "dias": ["martes"], "link": "https://beneficios.galicia.ar/"},
-        
-        # ===== BBVA (45 promociones) =====
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 25, "tope": 12000, "dias": ["lunes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Disco", "categoria": "Supermercado", "porcentaje": 20, "tope": 10000, "dias": ["miércoles"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "BV Modo", "marca": None, "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 25, "tope": 8000, "dias": ["viernes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Electro", "categoria": "Electro", "porcentaje": 20, "tope": 50000, "dias": ["todos"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 18, "tope": 7000, "dias": ["martes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "BV", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 15000, "dias": ["jueves"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 25, "tope": 12000, "dias": ["todos"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 15, "tope": 5000, "dias": ["viernes", "sábado"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 22, "tope": 8000, "dias": ["martes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC", "marca": None, "comercio": "Nike", "categoria": "Ropa", "porcentaje": 20, "tope": 15000, "dias": ["todos"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "BV Modo", "marca": None, "comercio": "Puppis", "categoria": "Ropa", "porcentaje": 20, "tope": 8000, "dias": ["martes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Viajes", "categoria": "Viajes", "porcentaje": 20, "tope": 40000, "dias": ["todos"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 15, "tope": 10000, "dias": ["miércoles"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "TC", "marca": None, "comercio": "Día", "categoria": "Supermercado", "porcentaje": 12, "tope": 3000, "dias": ["lunes"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        {"banco": "BBVA", "logo": "https://cdn.worldvectorlogo.com/logos/bbva.svg", "metodo": "BV", "marca": None, "comercio": "Restaurantes", "categoria": "Gastronomía", "porcentaje": 25, "tope": 12000, "dias": ["todos"], "link": "https://www.bbva.com.ar/beneficios/beneficios"},
-        
-        # ===== SANTANDER (40 promociones) =====
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 25, "tope": 8000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "BV MercadoPago", "marca": None, "comercio": "Supermercados", "categoria": "Supermercado", "porcentaje": 30, "tope": 15000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 25, "tope": 10000, "dias": ["martes", "miércoles"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Chango Más", "categoria": "Supermercado", "porcentaje": 20, "tope": 6000, "dias": ["viernes", "sábado"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "BV", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 20, "tope": 8000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Disco", "categoria": "Supermercado", "porcentaje": 20, "tope": 6000, "dias": ["lunes"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 15, "tope": 4000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "BV", "marca": None, "comercio": "Viajes", "categoria": "Viajes", "porcentaje": 20, "tope": 30000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Nike", "categoria": "Ropa", "porcentaje": 20, "tope": 12000, "dias": ["viernes"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 18, "tope": 5000, "dias": ["sábado"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC", "marca": None, "comercio": "Decathlon", "categoria": "Deportes", "porcentaje": 20, "tope": 10000, "dias": ["todos"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "BV Modo", "marca": None, "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 15, "tope": 8000, "dias": ["miércoles"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        {"banco": "Santander", "logo": "https://cdn.worldvectorlogo.com/logos/santander.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 18, "tope": 6000, "dias": ["jueves"], "link": "https://www.santander.com.ar/personas/beneficios"},
-        
-        # ===== ITAÚ (30 promociones) =====
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TD Mastercard", "marca": "Mastercard", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 15, "tope": 6000, "dias": ["miércoles"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Día", "categoria": "Supermercado", "porcentaje": 10, "tope": 3000, "dias": ["viernes"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "BV", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 20, "tope": 5000, "dias": ["jueves"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 12, "tope": 4000, "dias": ["lunes", "miércoles"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 14, "tope": 5000, "dias": ["viernes"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TC", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 18, "tope": 6000, "dias": ["sábado"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "BV Modo", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 12, "tope": 3000, "dias": ["todos"], "link": "https://www.itau.com.ar/beneficios"},
-        {"banco": "Itaú", "logo": "https://cdn.worldvectorlogo.com/logos/itau-2.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 16, "tope": 5000, "dias": ["martes"], "link": "https://www.itau.com.ar/beneficios"},
-        
-        # ===== BANCO NACIÓN (35 promociones) =====
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 10, "tope": 3000, "dias": ["lunes", "viernes"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "BV Modo", "marca": None, "comercio": "Supermercados", "categoria": "Supermercado", "porcentaje": 30, "tope": 12000, "dias": ["miércoles"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 15, "tope": 5000, "dias": ["miércoles"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TD", "marca": "Visa", "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 10, "tope": 3000, "dias": ["martes", "jueves"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 30, "tope": 15000, "dias": ["lunes"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 10000, "dias": ["sábado", "domingo"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "BV", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 20, "tope": 5000, "dias": ["todos"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 12, "tope": 4000, "dias": ["martes"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 12, "tope": 3500, "dias": ["viernes"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        {"banco": "Banco Nación", "logo": "https://cdn.worldvectorlogo.com/logos/banco-nacion-argentina.svg", "metodo": "TC", "marca": None, "comercio": "Disco", "categoria": "Supermercado", "porcentaje": 10, "tope": 2500, "dias": ["todos"], "link": "https://www.bna.com.ar/Personas/Beneficios"},
-        
-        # ===== BANCO MACRO (35 promociones) =====
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "BV Modo", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 10000, "dias": ["todos"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 20, "tope": 4000, "dias": ["martes"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 15, "tope": 5000, "dias": ["jueves"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Disco", "categoria": "Supermercado", "porcentaje": 18, "tope": 5000, "dias": ["sábado"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "BV", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 25, "tope": 12000, "dias": ["viernes"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC", "marca": None, "comercio": "Viajes", "categoria": "Viajes", "porcentaje": 20, "tope": 30000, "dias": ["todos"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 18, "tope": 6000, "dias": ["viernes"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 15, "tope": 3000, "dias": ["todos"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "BV Modo", "marca": None, "comercio": "Nike", "categoria": "Ropa", "porcentaje": 25, "tope": 15000, "dias": ["martes"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        {"banco": "Banco Macro", "logo": "https://cdn.worldvectorlogo.com/logos/banco-macro.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Vea", "categoria": "Supermercado", "porcentaje": 12, "tope": 3000, "dias": ["lunes"], "link": "https://www.bancomacro.com.ar/beneficios"},
-        
-        # ===== SUPERVIELLE (20 promociones) =====
-        {"banco": "Supervielle", "logo": "https://cdn.worldvectorlogo.com/logos/supervielle.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 18, "tope": 6000, "dias": ["jueves"], "link": "https://www.supervielle.com.ar/beneficios"},
-        {"banco": "Supervielle", "logo": "https://cdn.worldvectorlogo.com/logos/supervielle.svg", "metodo": "TD Visa", "marca": "Visa", "comercio": "Día", "categoria": "Supermercado", "porcentaje": 10, "tope": 2500, "dias": ["sábado", "domingo"], "link": "https://www.supervielle.com.ar/beneficios"},
-        {"banco": "Supervielle", "logo": "https://cdn.worldvectorlogo.com/logos/supervielle.svg", "metodo": "TC", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 20, "tope": 3000, "dias": ["viernes"], "link": "https://www.supervielle.com.ar/beneficios"},
-        {"banco": "Supervielle", "logo": "https://cdn.worldvectorlogo.com/logos/supervielle.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 15, "tope": 4000, "dias": ["miércoles", "sábado"], "link": "https://www.supervielle.com.ar/beneficios"},
-        {"banco": "Supervielle", "logo": "https://cdn.worldvectorlogo.com/logos/supervielle.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 12, "tope": 3000, "dias": ["jueves"], "link": "https://www.supervielle.com.ar/beneficios"},
-        
-        # ===== CREDICOOP (20 promociones) =====
-        {"banco": "Credicoop", "logo": "https://cdn.worldvectorlogo.com/logos/credicoop.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 12, "tope": 2500, "dias": ["sábado", "domingo"], "link": "https://www.credicoop.coop/beneficios"},
-        {"banco": "Credicoop", "logo": "https://cdn.worldvectorlogo.com/logos/credicoop.svg", "metodo": "TD", "marca": None, "comercio": "Supermercados", "categoria": "Supermercado", "porcentaje": 8, "tope": 1500, "dias": ["todos"], "link": "https://www.credicoop.coop/beneficios"},
-        {"banco": "Credicoop", "logo": "https://cdn.worldvectorlogo.com/logos/credicoop.svg", "metodo": "TC", "marca": None, "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 10, "tope": 3000, "dias": ["lunes"], "link": "https://www.credicoop.coop/beneficios"},
-        {"banco": "Credicoop", "logo": "https://cdn.worldvectorlogo.com/logos/credicoop.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 10, "tope": 2000, "dias": ["martes"], "link": "https://www.credicoop.coop/beneficios"},
-        
-        # ===== ICBC (25 promociones) =====
-        {"banco": "ICBC", "logo": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 30, "tope": 15000, "dias": ["miércoles"], "link": "https://www.icbc.com.ar/beneficios"},
-        {"banco": "ICBC", "logo": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg", "metodo": "TC Mastercard", "marca": "Mastercard", "comercio": "Supermercados", "categoria": "Supermercado", "porcentaje": 10, "tope": 5000, "dias": ["todos"], "link": "https://www.icbc.com.ar/beneficios"},
-        {"banco": "ICBC", "logo": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg", "metodo": "BV Modo", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 12000, "dias": ["jueves"], "link": "https://www.icbc.com.ar/beneficios"},
-        {"banco": "ICBC", "logo": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg", "metodo": "TC", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 20, "tope": 8000, "dias": ["viernes"], "link": "https://www.icbc.com.ar/beneficios"},
-        {"banco": "ICBC", "logo": "https://cdn.worldvectorlogo.com/logos/icbc-2.svg", "metodo": "TC Visa", "marca": "Visa", "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 12, "tope": 4000, "dias": ["sábado"], "link": "https://www.icbc.com.ar/beneficios"},
-        
-        # ===== MERCADOPAGO (20 promociones) =====
-        {"banco": "MercadoPago", "logo": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg", "metodo": "BV MercadoPago", "marca": None, "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 35, "tope": 20000, "dias": ["todos"], "link": "https://www.mercadopago.com.ar/descuentos"},
-        {"banco": "MercadoPago", "logo": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg", "metodo": "BV MercadoPago", "marca": None, "comercio": "Carrefour", "categoria": "Supermercado", "porcentaje": 30, "tope": 15000, "dias": ["todos"], "link": "https://www.mercadopago.com.ar/descuentos"},
-        {"banco": "MercadoPago", "logo": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg", "metodo": "BV MercadoPago", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 25, "tope": 10000, "dias": ["todos"], "link": "https://www.mercadopago.com.ar/descuentos"},
-        {"banco": "MercadoPago", "logo": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg", "metodo": "BV MercadoPago", "marca": None, "comercio": "Jumbo", "categoria": "Supermercado", "porcentaje": 25, "tope": 10000, "dias": ["todos"], "link": "https://www.mercadopago.com.ar/descuentos"},
-        {"banco": "MercadoPago", "logo": "https://cdn.worldvectorlogo.com/logos/mercado-pago-2.svg", "metodo": "BV", "marca": None, "comercio": "Ropa", "categoria": "Ropa", "porcentaje": 20, "tope": 5000, "dias": ["viernes", "sábado", "domingo"], "link": "https://www.mercadopago.com.ar/descuentos"},
-        
-        # ===== MODO (15 promociones) =====
-        {"banco": "Modo", "logo": "https://cdn.worldvectorlogo.com/logos/modo-5.svg", "metodo": "QR Modo", "marca": None, "comercio": "COTO", "categoria": "Supermercado", "porcentaje": 25, "tope": 10000, "dias": ["todos"], "link": "https://www.modo.com.ar/promos"},
-        {"banco": "Modo", "logo": "https://cdn.worldvectorlogo.com/logos/modo-5.svg", "metodo": "QR Modo", "marca": None, "comercio": "Supermercados", "categoria": "Supermercado", "porcentaje": 20, "tope": 8000, "dias": ["todos"], "link": "https://www.modo.com.ar/promos"},
-        {"banco": "Modo", "logo": "https://cdn.worldvectorlogo.com/logos/modo-5.svg", "metodo": "QR Modo", "marca": None, "comercio": "Gastronomía", "categoria": "Gastronomía", "porcentaje": 30, "tope": 15000, "dias": ["todos"], "link": "https://www.modo.com.ar/promos"},
-        {"banco": "Modo", "logo": "https://cdn.worldvectorlogo.com/logos/modo-5.svg", "metodo": "QR Modo", "marca": None, "comercio": "Farmacias", "categoria": "Salud", "porcentaje": 20, "tope": 5000, "dias": ["viernes", "sábado"], "link": "https://www.modo.com.ar/promos"},
-        {"banco": "Modo", "logo": "https://cdn.worldvectorlogo.com/logos/modo-5.svg", "metodo": "QR Modo", "marca": None, "comercio": "Combustible", "categoria": "Combustible", "porcentaje": 15, "tope": 8000, "dias": ["miércoles"], "link": "https://www.modo.com.ar/promos"},
-    ]
+def cargar_promociones():
+    """Carga promociones.json"""
+    with open('promociones.json', 'r', encoding='utf-8') as f:
+        return json.load(f)['promociones']
 
-def format_descuentos(descuentos_data):
-    """Convierte a JSON final"""
+def generar_data_json(promociones):
+    """Procesa promociones → data.json"""
     descuentos = []
-    id_counter = 1
     
-    for d in descuentos_data:
-        dias = d.get("dias", ["todos"])
-        if dias == ["todos"]:
+    for idx, promo in enumerate(promociones, 1):
+        dias = promo.get("dias_vigencia", ["todos"])
+        if "todos" in dias:
             dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
         
-        metodo = d["metodo"].replace("TC ", "Tarjeta de Crédito").replace("TD ", "Tarjeta de Débito").replace("BV ", "Billetera Virtual").replace("QR ", "QR")
-        
         descuentos.append({
-            "id": id_counter,
-            "banco": d["banco"],
-            "logo_url": d["logo"],
-            "metodo_pago": metodo,
-            "tarjeta_marca": d.get("marca"),
-            "comercio": d["comercio"],
-            "categoria": d["categoria"],
-            "porcentaje": d["porcentaje"],
-            "tope_reintegro": d["tope"],
+            "id": idx,
+            "banco": promo["banco"],
+            "logo_url": None,
+            "metodo_pago": promo["metodo_pago"],
+            "tarjeta_marca": promo.get("tarjeta_marca"),
+            "comercio": promo["comercio"],
+            "categoria": promo["categoria"],
+            "porcentaje": promo["porcentaje"],
+            "tope_reintegro": promo["tope_reintegro"],
             "dias_vigencia": dias,
-            "fecha_inicio": (datetime.now() - timedelta(days=5)).strftime("%Y-%m-%d"),
-            "fecha_fin": (datetime.now() + timedelta(days=60)).strftime("%Y-%m-%d"),
-            "link_detalle": d["link"],
+            "fecha_inicio": promo["fecha_inicio"],
+            "fecha_fin": promo["fecha_fin"],
+            "link_detalle": promo["link_detalle"],
             "ultima_actualizacion": datetime.now().isoformat() + "Z"
         })
-        id_counter += 1
     
-    return descuentos
-
-def guardar_json(descuentos):
-    """Guarda en data.json"""
+    descuentos = sorted(descuentos, key=lambda x: x['porcentaje'], reverse=True)
     
-    # Deduplicar
-    descuentos_unicos = []
-    vistos = set()
-    
-    for d in descuentos:
-        key = f"{d['banco']}_{d['comercio']}_{d['porcentaje']}"
-        if key not in vistos:
-            vistos.add(key)
-            descuentos_unicos.append(d)
-    
-    # Ordenar por %
-    descuentos_ordenados = sorted(descuentos_unicos, key=lambda x: x['porcentaje'], reverse=True)
-    
-    # Re-ID
-    for idx, d in enumerate(descuentos_ordenados, 1):
+    for idx, d in enumerate(descuentos, 1):
         d['id'] = idx
     
-    data = {
-        "descuentos": descuentos_ordenados,
-        "total": len(descuentos_ordenados),
+    return {
+        "descuentos": descuentos,
+        "total": len(descuentos),
         "ultima_sincronizacion": datetime.now().isoformat() + "Z",
-        "fuentes": ["Base de datos oficial", "Páginas de bancos", "Mayo 2026"]
+        "fuentes": ["BD Manual - Actualizado manualmente"]
     }
-    
+
+def guardar_data_json(data):
+    """Guarda data.json"""
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    
-    logger.info(f"✓ {len(descuentos_ordenados)} descuentos guardados")
+    logger.info(f"✓ {data['total']} descuentos guardados")
 
 if __name__ == "__main__":
     logger.info("=" * 70)
-    logger.info("SCRAPER FINAL - BASE DE DATOS OFICIAL (300+ PROMOCIONES)")
+    logger.info("GENERADOR DATA.JSON - BD MANUAL")
     logger.info("=" * 70)
     
-    base_datos = get_base_datos_completa()
-    logger.info(f"✓ Base de datos cargada: {len(base_datos)} promociones")
+    promociones = cargar_promociones()
+    data = generar_data_json(promociones)
+    guardar_data_json(data)
     
-    descuentos_formateados = format_descuentos(base_datos)
-    guardar_json(descuentos_formateados)
-    
-    logger.info("=" * 70)
     logger.info("✓ COMPLETADO")
     logger.info("=" * 70)
-```
-
----
-
-Ahora copia esto a GitHub en `scraper.py` y ejecuta.
-
-Debería traer **280+ descuentos reales** ✅
