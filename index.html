@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descuentos Bancarios Argentina | Encontrá las mejores promociones</title>
+  <meta name="description" content="Portal de descuentos y promociones bancarias en Argentina. Filtrá por banco, método de pago y día de la semana para encontrar el mejor descuento." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <div class="brand-icon">🏦</div>
+        <div>
+          <h1 class="brand-title">Descuentos Bancarios</h1>
+          <p class="brand-subtitle">Argentina · Promociones actualizadas</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="last-updated" id="lastUpdated">Cargando...</span>
+        <button class="btn-mobile-filters" id="btnMobileFilters" aria-label="Abrir filtros" aria-expanded="false" aria-controls="sidebar">
+          <span class="hamburger-icon">☰</span>
+          <span>Filtros</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== LAYOUT ===================== -->
+  <div class="layout-wrapper">
+
+    <!-- OVERLAY para mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay" role="presentation"></div>
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar" id="sidebar" role="complementary" aria-label="Panel de filtros">
+
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          Filtros
+        </h2>
+        <button class="btn-close-sidebar" id="btnCloseSidebar" aria-label="Cerrar filtros">✕</button>
+      </div>
+
+      <div class="sidebar-body">
+
+        <!-- Botón limpiar -->
+        <button class="btn-clear-filters" id="btnClearFilters">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/></svg>
+          Limpiar filtros
+        </button>
+
+        <!-- BANCOS -->
+        <div class="filter-group" id="filterGroupBancos">
+          <button class="filter-group-header" aria-expanded="true" aria-controls="filterBancos">
+            <span class="filter-group-icon">🏛️</span>
+            <span class="filter-group-title">Bancos</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+          </button>
+          <div class="filter-group-body" id="filterBancos">
+            <ul class="filter-list" id="listBancos">
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Santander" /><span class="filter-label">Santander</span><span class="filter-count" id="count-banco-santander">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="BBVA" /><span class="filter-label">BBVA</span><span class="filter-count" id="count-banco-bbva">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Galicia" /><span class="filter-label">Banco Galicia</span><span class="filter-count" id="count-banco-galicia">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Itaú" /><span class="filter-label">Itaú</span><span class="filter-count" id="count-banco-itau">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Banco Nación" /><span class="filter-label">Banco Nación</span><span class="filter-count" id="count-banco-nacion">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Banco Macro" /><span class="filter-label">Banco Macro</span><span class="filter-count" id="count-banco-macro">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Supervielle" /><span class="filter-label">Supervielle</span><span class="filter-count" id="count-banco-supervielle">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Credicoop" /><span class="filter-label">Credicoop</span><span class="filter-count" id="count-banco-credicoop">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="ICBC" /><span class="filter-label">ICBC</span><span class="filter-count" id="count-banco-icbc">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="MercadoPago" /><span class="filter-label">MercadoPago</span><span class="filter-count" id="count-banco-mercadopago">0</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="banco" value="Modo" /><span class="filter-label">Modo</span><span class="filter-count" id="count-banco-modo">0</span></label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- RANGO DE DESCUENTO -->
+        <div class="filter-group" id="filterGroupRango">
+          <button class="filter-group-header" aria-expanded="true" aria-controls="filterRango">
+            <span class="filter-group-icon">💸</span>
+            <span class="filter-group-title">Rango de Descuento</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+          </button>
+          <div class="filter-group-body" id="filterRango">
+            <ul class="filter-list">
+              <li><label class="filter-item"><input type="radio" name="rango" value="" /><span class="filter-label">Todos</span></label></li>
+              <li><label class="filter-item"><input type="radio" name="rango" value="0-10" /><span class="filter-label">Hasta 10%</span></label></li>
+              <li><label class="filter-item"><input type="radio" name="rango" value="10-25" /><span class="filter-label">10% — 25%</span></label></li>
+              <li><label class="filter-item"><input type="radio" name="rango" value="25-50" /><span class="filter-label">25% — 50%</span></label></li>
+              <li><label class="filter-item"><input type="radio" name="rango" value="50+" /><span class="filter-label">Más del 50%</span></label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MÉTODO DE PAGO -->
+        <div class="filter-group" id="filterGroupMetodo">
+          <button class="filter-group-header" aria-expanded="true" aria-controls="filterMetodo">
+            <span class="filter-group-icon">💳</span>
+            <span class="filter-group-title">Método de Pago</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+          </button>
+          <div class="filter-group-body" id="filterMetodo">
+            <ul class="filter-list">
+              <li><label class="filter-item"><input type="checkbox" name="metodo" value="Tarjeta de Crédito" /><span class="filter-label">Tarjeta de Crédito</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="metodo" value="Tarjeta de Débito" /><span class="filter-label">Tarjeta de Débito</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="metodo" value="Billetera Virtual" /><span class="filter-label">Billetera Virtual</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="metodo" value="QR" /><span class="filter-label">QR</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="metodo" value="Efectivo" /><span class="filter-label">Efectivo</span></label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- DÍA DE LA SEMANA -->
+        <div class="filter-group" id="filterGroupDia">
+          <button class="filter-group-header" aria-expanded="true" aria-controls="filterDia">
+            <span class="filter-group-icon">📅</span>
+            <span class="filter-group-title">Día de la Semana</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+          </button>
+          <div class="filter-group-body" id="filterDia">
+            <ul class="filter-list">
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="lunes" /><span class="filter-label">Lunes</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="martes" /><span class="filter-label">Martes</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="miércoles" /><span class="filter-label">Miércoles</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="jueves" /><span class="filter-label">Jueves</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="viernes" /><span class="filter-label">Viernes</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="sábado" /><span class="filter-label">Sábado</span></label></li>
+              <li><label class="filter-item"><input type="checkbox" name="dia" value="domingo" /><span class="filter-label">Domingo</span></label></li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- /sidebar-body -->
+    </aside>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <main class="main-content" role="main">
+
+      <!-- CALENDARIO VISUAL -->
+      <section class="calendar-section" aria-label="Descuentos por día de la semana">
+        <div class="calendar-grid" id="calendarGrid" role="list">
+          <!-- Generado por JS -->
+        </div>
+      </section>
+
+      <!-- RESULTADOS HEADER -->
+      <div class="results-header">
+        <div class="results-info">
+          <span class="results-count" id="resultsCount">Cargando...</span>
+        </div>
+        <div class="results-sort">
+          <label for="sortSelect" class="sort-label">Ordenar por:</label>
+          <select id="sortSelect" class="sort-select">
+            <option value="porcentaje_desc">Mayor descuento</option>
+            <option value="porcentaje_asc">Menor descuento</option>
+            <option value="fecha_fin_asc">Próximo a vencer</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- GRID DE CARDS -->
+      <div class="cards-grid" id="cardsGrid" role="list" aria-label="Listado de descuentos">
+        <!-- Generado por JS -->
+      </div>
+
+      <!-- ESTADO VACÍO -->
+      <div class="empty-state" id="emptyState" hidden>
+        <div class="empty-state-icon">🔍</div>
+        <h3 class="empty-state-title">Sin resultados</h3>
+        <p class="empty-state-desc">No hay descuentos que coincidan con los filtros seleccionados.</p>
+        <button class="btn-clear-filters-empty" id="btnClearFiltersEmpty">Limpiar filtros</button>
+      </div>
+
+      <!-- PAGINACIÓN -->
+      <nav class="pagination" id="paginationContainer" role="navigation" aria-label="Paginación de resultados" hidden>
+        <button class="btn-page btn-prev" id="btnPrev" aria-label="Página anterior" disabled>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Anterior
+        </button>
+        <div class="pagination-pages" id="paginationPages" role="list">
+          <!-- Generado por JS -->
+        </div>
+        <button class="btn-page btn-next" id="btnNext" aria-label="Página siguiente">
+          Siguiente
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </nav>
+
+    </main>
+  </div><!-- /layout-wrapper -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>Portal de Descuentos Bancarios · Argentina · <span id="footerYear"></span></p>
+      <p class="footer-disclaimer">Las promociones son de carácter informativo. Verificar vigencia y condiciones en cada banco.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
