@@ -24,7 +24,7 @@ jobs:
           pip install requests
       
       - name: Ejecutar scraper
-        run: python scraper_automatico.py
+        run: python scraper.py
       
       - name: Verificar cambios
         id: verify
