@@ -94,13 +94,22 @@ def extraer_bbva():
 def extraer_santander():
     """Extrae promociones de Santander via su BFF API"""
     try:
-        r = requests.get('https://www.santander.com.ar/bff-benefits/brands?limit=999')
+        url = 'https://www.santander.com.ar/bff-benefits/brands?limit=999'
+        logger.info(f"Conectando a Santander: {url}")
+        
+        r = requests.get(url, timeout=10)
+        logger.info(f"Respuesta Santander: status={r.status_code}")
+        
         if r.status_code != 200:
             logger.warning(f"Error conectando a Santander: {r.status_code}")
+            logger.warning(f"Response: {r.text[:200]}")
             return []
         
         data = r.json()
+        logger.info(f"Datos Santander recibidos: {list(data.keys())}")
+        
         beneficios = data.get('items', [])
+        logger.info(f"Items encontrados: {len(beneficios)}")
         
         santanderFormatted = []
         hoy = datetime.now().date()
@@ -124,7 +133,7 @@ def extraer_santander():
         return santanderFormatted
     
     except Exception as e:
-        logger.error(f"Error extrayendo Santander: {e}")
+        logger.error(f"Error extrayendo Santander: {e}", exc_info=True)
         return []
 
 def combinar_y_guardar(bbva, santander):
