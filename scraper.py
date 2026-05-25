@@ -1,67 +1,154 @@
 import json
 import logging
+import requests
 from datetime import datetime, timedelta
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def cargar_promociones():
-    """Carga promociones.json"""
-    with open('promociones.json', 'r', encoding='utf-8') as f:
-        return json.load(f)['promociones']
-
-def generar_data_json(promociones):
-    """Procesa promociones → data.json"""
-    descuentos = []
+def extraer_bbva():
+    """Extrae promociones de BBVA via su API interna"""
+    campaignIds = [2415, 2416, 2417, 2474, 2492, 2493, 2497, 2502, 2518, 2520, 2521]
+    bbvaPromos = []
     
-    for idx, promo in enumerate(promociones, 1):
-        dias = promo.get("dias_vigencia", ["todos"])
-        if "todos" in dias:
-            dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    for cid in campaignIds:
+        try:
+            # Página 1
+            r = requests.get(f'https://go.bbva.com.ar/willgo/fgo/API/v3/campaign/{cid}')
+            if r.status_code != 200:
+                continue
+            
+            data = r.json()
+            bbvaPromos.extend(data.get('data', []))
+            
+            # Obtener páginas adicionales
+            message = data.get('message', '')
+            if 'paginas:' in message:
+                pages = int(message.split('paginas: ')[1].split()[0])
+                for p in range(2, pages + 1):
+                    r = requests.get(f'https://go.bbva.com.ar/willgo/fgo/API/v3/campaign/{cid}?page={p}')
+                    if r.status_code == 200:
+                        page_data = r.json()
+                        if page_data.get('data'):
+                            bbvaPromos.extend(page_data['data'])
+        except Exception as e:
+            logger.warning(f"Error extrayendo BBVA campaña {cid}: {e}")
+    
+    # Formatear
+    bbvaFormatted = []
+    for p in bbvaPromos:
+        diasStr = p.get('diasPromo', '1,1,1,1,1,1,1')
+        dias = []
+        nombres = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+        for i, v in enumerate(diasStr.split(',')):
+            if v == '1':
+                dias.append(nombres[i])
         
-        descuentos.append({
-            "id": idx,
-            "banco": promo["banco"],
-            "logo_url": None,
-            "metodo_pago": promo["metodo_pago"],
-            "tarjeta_marca": promo.get("tarjeta_marca"),
-            "comercio": promo["comercio"],
-            "categoria": promo["categoria"],
-            "porcentaje": promo["porcentaje"],
-            "tope_reintegro": promo["tope_reintegro"],
-            "dias_vigencia": dias,
-            "fecha_inicio": promo["fecha_inicio"],
-            "fecha_fin": promo["fecha_fin"],
-            "link_detalle": promo["link_detalle"],
-            "ultima_actualizacion": datetime.now().isoformat() + "Z"
+        if not dias:
+            dias = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+        
+        porcentaje = 0
+        comercio = p.get('cabecera', '')
+        
+        # Extraer porcentaje
+        import re
+        match = re.search(r'(\d+)%', comercio)
+        if match:
+            porcentaje = int(match.group(1))
+        
+        # Limpiar comercio
+        comercio = re.sub(r'\d+%.*', '', comercio)
+        comercio = re.sub(r'\d+ cuotas.*', '', comercio).strip()
+        if not comercio:
+            comercio = p.get('cabecera', 'Promo BBVA')
+        
+        bbvaFormatted.append({
+            'banco': 'BBVA',
+            'comercio': comercio,
+            'porcentaje': porcentaje,
+            'tope_reintegro': int(p.get('montoTope', 0)) if p.get('montoTope') else None,
+            'dias_vigencia': dias,
+            'metodo_pago': p.get('grupoTarjeta', 'Tarjeta de Crédito'),
+            'fecha_inicio': p.get('fechaDesde', ''),
+            'fecha_fin': p.get('fechaHasta', ''),
+            'link_detalle': f"https://www.bbva.com.ar/beneficios/beneficio?id={p.get('id')}",
+            'id_original': p.get('id')
         })
     
-    descuentos = sorted(descuentos, key=lambda x: x['porcentaje'], reverse=True)
+    logger.info(f"✓ Extraídas {len(bbvaFormatted)} promociones de BBVA")
+    return bbvaFormatted
+
+def extraer_santander():
+    """Extrae promociones de Santander via su BFF API"""
+    try:
+        r = requests.get('https://www.santander.com.ar/bff-benefits/brands?limit=999')
+        if r.status_code != 200:
+            logger.warning(f"Error conectando a Santander: {r.status_code}")
+            return []
+        
+        data = r.json()
+        beneficios = data.get('items', [])
+        
+        santanderFormatted = []
+        hoy = datetime.now().date()
+        fin = hoy + timedelta(days=180)
+        
+        for b in beneficios:
+            santanderFormatted.append({
+                'banco': 'SANTANDER',
+                'comercio': b.get('name', ''),
+                'porcentaje': 0,  # Santander no lo proporciona
+                'tope_reintegro': None,
+                'dias_vigencia': ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'],
+                'metodo_pago': 'Tarjeta de Crédito',
+                'fecha_inicio': str(hoy),
+                'fecha_fin': str(fin),
+                'link_detalle': f"https://www.santander.com.ar/personas/beneficios?brand={b.get('code', '')}",
+                'id_original': b.get('id')
+            })
+        
+        logger.info(f"✓ Extraídas {len(santanderFormatted)} promociones de SANTANDER")
+        return santanderFormatted
     
-    for idx, d in enumerate(descuentos, 1):
-        d['id'] = idx
-    
-    return {
-        "descuentos": descuentos,
-        "total": len(descuentos),
-        "ultima_sincronizacion": datetime.now().isoformat() + "Z",
-        "fuentes": ["BD Manual - Actualizado manualmente"]
+    except Exception as e:
+        logger.error(f"Error extrayendo Santander: {e}")
+        return []
+
+def combinar_y_guardar(bbva, santander):
+    """Combina los datos y guarda en data.json"""
+    combinado = {
+        'descuentos': sorted(bbva + santander, key=lambda x: x['porcentaje'], reverse=True),
+        'total': len(bbva) + len(santander),
+        'por_banco': {
+            'BBVA': len(bbva),
+            'SANTANDER': len(santander)
+        },
+        'ultima_sincronizacion': datetime.now().isoformat() + 'Z',
+        'fuentes': ['BBVA API Interna', 'Santander BFF API']
     }
-
-def guardar_data_json(data):
-    """Guarda data.json"""
+    
     with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    logger.info(f"✓ {data['total']} descuentos guardados")
+        json.dump(combinado, f, indent=2, ensure_ascii=False)
+    
+    logger.info(f"✓ Guardados {combinado['total']} descuentos en data.json")
+    return combinado
 
-if __name__ == "__main__":
-    logger.info("=" * 70)
-    logger.info("GENERADOR DATA.JSON - BD MANUAL")
-    logger.info("=" * 70)
+if __name__ == '__main__':
+    logger.info("🚀 Iniciando extracción de promociones...")
     
-    promociones = cargar_promociones()
-    data = generar_data_json(promociones)
-    guardar_data_json(data)
+    bbva = extraer_bbva()
+    santander = extraer_santander()
     
-    logger.info("✓ COMPLETADO")
-    logger.info("=" * 70)
+    resultado = combinar_y_guardar(bbva, santander)
+    
+    logger.info(f"""
+    ═══════════════════════════════════════
+    ✓ EXTRACCIÓN COMPLETADA
+    ═══════════════════════════════════════
+    Total: {resultado['total']} promociones
+    - BBVA: {resultado['por_banco']['BBVA']}
+    - SANTANDER: {resultado['por_banco']['SANTANDER']}
+    
+    Archivo: data.json
+    ═══════════════════════════════════════
+    """)
