@@ -8,6 +8,7 @@ logger = logging.getLogger(__name__)
 
 def extraer_bbva():
     """Extrae promociones de BBVA via su API interna"""
+    import re
     campaignIds = [2415, 2416, 2417, 2474, 2492, 2493, 2497, 2502, 2518, 2520, 2521]
     bbvaPromos = []
     
@@ -37,43 +38,55 @@ def extraer_bbva():
     # Formatear
     bbvaFormatted = []
     for p in bbvaPromos:
-        diasStr = p.get('diasPromo', '1,1,1,1,1,1,1')
-        dias = []
-        nombres = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
-        for i, v in enumerate(diasStr.split(',')):
-            if v == '1':
-                dias.append(nombres[i])
-        
-        if not dias:
-            dias = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
-        
-        porcentaje = 0
-        comercio = p.get('cabecera', '')
-        
-        # Extraer porcentaje
-        import re
-        match = re.search(r'(\d+)%', comercio)
-        if match:
-            porcentaje = int(match.group(1))
-        
-        # Limpiar comercio
-        comercio = re.sub(r'\d+%.*', '', comercio)
-        comercio = re.sub(r'\d+ cuotas.*', '', comercio).strip()
-        if not comercio:
-            comercio = p.get('cabecera', 'Promo BBVA')
-        
-        bbvaFormatted.append({
-            'banco': 'BBVA',
-            'comercio': comercio,
-            'porcentaje': porcentaje,
-            'tope_reintegro': int(p.get('montoTope', 0)) if p.get('montoTope') else None,
-            'dias_vigencia': dias,
-            'metodo_pago': p.get('grupoTarjeta', 'Tarjeta de Crédito'),
-            'fecha_inicio': p.get('fechaDesde', ''),
-            'fecha_fin': p.get('fechaHasta', ''),
-            'link_detalle': f"https://www.bbva.com.ar/beneficios/beneficio?id={p.get('id')}",
-            'id_original': p.get('id')
-        })
+        try:
+            # Manejar diasPromo de forma robusta
+            diasPromo = p.get('diasPromo')
+            if diasPromo is None or diasPromo == '':
+                diasStr = '1,1,1,1,1,1,1'
+            else:
+                diasStr = str(diasPromo)
+            
+            dias = []
+            nombres = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+            try:
+                for i, v in enumerate(diasStr.split(',')):
+                    if v.strip() == '1' and i < len(nombres):
+                        dias.append(nombres[i])
+            except:
+                pass
+            
+            if not dias:
+                dias = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+            
+            porcentaje = 0
+            comercio = p.get('cabecera', '')
+            
+            # Extraer porcentaje
+            match = re.search(r'(\d+)%', comercio)
+            if match:
+                porcentaje = int(match.group(1))
+            
+            # Limpiar comercio
+            comercio = re.sub(r'\d+%.*', '', comercio)
+            comercio = re.sub(r'\d+ cuotas.*', '', comercio).strip()
+            if not comercio:
+                comercio = p.get('cabecera', 'Promo BBVA')
+            
+            bbvaFormatted.append({
+                'banco': 'BBVA',
+                'comercio': comercio,
+                'porcentaje': porcentaje,
+                'tope_reintegro': int(p.get('montoTope', 0)) if p.get('montoTope') else None,
+                'dias_vigencia': dias,
+                'metodo_pago': p.get('grupoTarjeta', 'Tarjeta de Crédito'),
+                'fecha_inicio': p.get('fechaDesde', ''),
+                'fecha_fin': p.get('fechaHasta', ''),
+                'link_detalle': f"https://www.bbva.com.ar/beneficios/beneficio?id={p.get('id')}",
+                'id_original': p.get('id')
+            })
+        except Exception as e:
+            logger.warning(f"Error procesando promo BBVA: {e}")
+            continue
     
     logger.info(f"✓ Extraídas {len(bbvaFormatted)} promociones de BBVA")
     return bbvaFormatted
