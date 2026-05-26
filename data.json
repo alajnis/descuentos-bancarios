@@ -2632,26 +2632,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Changomas Beneficio exclusivo MODO",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-25",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84927",
-      "id_original": "84927"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Supermercados Toledo Beneficio exclusivo MODO",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3653,12 +3633,12 @@
       "id_original": "84743"
     }
   ],
-  "total": 194,
+  "total": 193,
   "por_banco": {
-    "BBVA": 194,
+    "BBVA": 193,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-05-25T10:06:28.616913Z",
+  "ultima_sincronizacion": "2026-05-26T09:57:12.491757Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
