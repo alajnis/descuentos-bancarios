@@ -2318,7 +2318,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Supermercados Toledo Beneficio exclusivo MODO",
+      "comercio": "Supermercados Toledo",
       "porcentaje": 0,
       "tope_reintegro": null,
       "dias_vigencia": [
@@ -2338,7 +2338,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Supermercado Josimar Beneficio exclusivo MODO",
+      "comercio": "Supermercado Josimar",
       "porcentaje": 0,
       "tope_reintegro": 8000,
       "dias_vigencia": [
@@ -3340,7 +3340,7 @@
     "BBVA": 172,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-05-27T09:49:48.981713Z",
+  "ultima_sincronizacion": "2026-05-28T10:01:15.731288Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
