@@ -2178,26 +2178,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Coto Beneficio exclusivo MODO",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-03-01",
-      "fecha_fin": "2026-05-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83925",
-      "id_original": "83925"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Disco - Vea Beneficio exclusivo MODO",
       "porcentaje": 0,
       "tope_reintegro": 25000,
@@ -2252,7 +2232,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2025-12-04",
-      "fecha_fin": "2026-05-31",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84056",
       "id_original": "84056"
     },
@@ -2318,7 +2298,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Supermercados Toledo",
+      "comercio": "Supermercados Toledo Beneficio exclusivo MODO",
       "porcentaje": 0,
       "tope_reintegro": null,
       "dias_vigencia": [
@@ -2332,7 +2312,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-05-29",
+      "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
       "id_original": "85000"
     },
@@ -2375,6 +2355,66 @@
       "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
       "id_original": "85446"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Diarco Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-30",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85527",
+      "id_original": "85527"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supercoop Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85528",
+      "id_original": "85528"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados La Gallega Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85530",
+      "id_original": "85530"
     },
     {
       "banco": "BBVA",
@@ -3355,12 +3395,12 @@
       "id_original": "84757"
     }
   ],
-  "total": 173,
+  "total": 175,
   "por_banco": {
-    "BBVA": 173,
+    "BBVA": 175,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-05-29T09:54:29.223930Z",
+  "ultima_sincronizacion": "2026-05-30T08:28:22.047314Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
