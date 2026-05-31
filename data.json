@@ -22,6 +22,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Coto",
+      "porcentaje": 30,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de débito BBVA",
+      "fecha_inicio": "2026-06-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85521",
+      "id_original": "85521"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Berlin Berlin",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -2398,6 +2418,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Supermercados Kilbel Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-06-01",
+      "fecha_fin": "2026-07-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85529",
+      "id_original": "85529"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Supermercados La Gallega Beneficio exclusivo MODO",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -3395,12 +3435,12 @@
       "id_original": "84757"
     }
   ],
-  "total": 175,
+  "total": 177,
   "por_banco": {
-    "BBVA": 175,
+    "BBVA": 177,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-05-30T08:28:22.047314Z",
+  "ultima_sincronizacion": "2026-05-31T08:45:15.038873Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
