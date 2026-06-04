@@ -1925,6 +1925,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Diego Torres",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-05",
+      "fecha_fin": "2026-06-06",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84390",
+      "id_original": "84390"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Lindsey Stirling",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2564,12 +2584,12 @@
       "id_original": "85011"
     }
   ],
-  "total": 131,
+  "total": 132,
   "por_banco": {
-    "BBVA": 131,
+    "BBVA": 132,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-06-03T10:59:21.550930Z",
+  "ultima_sincronizacion": "2026-06-04T09:55:55.540140Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
