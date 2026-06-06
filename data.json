@@ -1725,26 +1725,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Diego Torres",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2025-12-17",
-      "fecha_fin": "2026-06-05",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=82094",
-      "id_original": "82094"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Airbag Gira Interior",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2584,12 +2564,12 @@
       "id_original": "85011"
     }
   ],
-  "total": 132,
+  "total": 131,
   "por_banco": {
-    "BBVA": 132,
+    "BBVA": 131,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-06-05T09:50:36.011297Z",
+  "ultima_sincronizacion": "2026-06-06T08:33:26.504651Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
