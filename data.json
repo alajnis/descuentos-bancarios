@@ -22,6 +22,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Rocky",
+      "porcentaje": 30,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84883",
+      "id_original": "84883"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Coto",
       "porcentaje": 30,
       "tope_reintegro": null,
@@ -79,6 +99,66 @@
       "fecha_fin": "2026-07-12",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84534",
       "id_original": "84534"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Annie",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84884",
+      "id_original": "84884"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Feliz Navidad De M",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84885",
+      "id_original": "84885"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Teatro Premier 2",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84886",
+      "id_original": "84886"
     },
     {
       "banco": "BBVA",
@@ -1507,6 +1587,558 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Top Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85415",
+      "id_original": "85415"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Seven Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85416",
+      "id_original": "85416"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Chelsea",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85417",
+      "id_original": "85417"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Exit",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85418",
+      "id_original": "85418"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Label 99",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85419",
+      "id_original": "85419"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Awada",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85420",
+      "id_original": "85420"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Express Moda",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85421",
+      "id_original": "85421"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Ver",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85422",
+      "id_original": "85422"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Akiabara",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85423",
+      "id_original": "85423"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Little Akiabara",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85424",
+      "id_original": "85424"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Top Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85415",
+      "id_original": "85415"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Seven Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85416",
+      "id_original": "85416"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Chelsea",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85417",
+      "id_original": "85417"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Exit",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85418",
+      "id_original": "85418"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Label 99",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85419",
+      "id_original": "85419"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Awada",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85420",
+      "id_original": "85420"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Express Moda",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85421",
+      "id_original": "85421"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Ver",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85422",
+      "id_original": "85422"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Akiabara",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85423",
+      "id_original": "85423"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Little Akiabara",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85424",
+      "id_original": "85424"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Music Mansion",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84887",
+      "id_original": "84887"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "The North Face",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85378",
+      "id_original": "85378"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Hush Puppies",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85379",
+      "id_original": "85379"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Hush Puppies",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85380",
+      "id_original": "85380"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Vans",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85381",
+      "id_original": "85381"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Vans",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85382",
+      "id_original": "85382"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cat",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85383",
+      "id_original": "85383"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cat",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85384",
+      "id_original": "85384"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Urban Rail",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85385",
+      "id_original": "85385"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Urban Rail",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85386",
+      "id_original": "85386"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "The North Face",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85378",
+      "id_original": "85378"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Hush Puppies",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85379",
+      "id_original": "85379"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Hush Puppies",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85380",
+      "id_original": "85380"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Vans",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85381",
+      "id_original": "85381"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Vans",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85382",
+      "id_original": "85382"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cat",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85383",
+      "id_original": "85383"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cat",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85384",
+      "id_original": "85384"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Urban Rail",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85385",
+      "id_original": "85385"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Urban Rail",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-02",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85386",
+      "id_original": "85386"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Megatlon",
       "porcentaje": 15,
       "tope_reintegro": null,
@@ -1702,6 +2334,26 @@
       "fecha_fin": "2026-07-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83049",
       "id_original": "83049"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Los Astropicos",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-10",
+      "fecha_fin": "2026-07-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85687",
+      "id_original": "85687"
     },
     {
       "banco": "BBVA",
@@ -2542,14 +3194,34 @@
       "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85011",
       "id_original": "85011"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Decathlon Argentina",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-05-12",
+      "fecha_fin": "2026-06-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85011",
+      "id_original": "85011"
     }
   ],
-  "total": 130,
+  "total": 175,
   "por_banco": {
-    "BBVA": 130,
+    "BBVA": 175,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-06-08T10:54:57.190544Z",
+  "ultima_sincronizacion": "2026-06-09T09:43:07.938676Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
