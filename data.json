@@ -2991,7 +2991,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-02",
-      "fecha_fin": "2026-06-28",
+      "fecha_fin": "2026-07-26",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84925",
       "id_original": "84925"
     },
@@ -3011,7 +3011,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-02",
-      "fecha_fin": "2026-06-28",
+      "fecha_fin": "2026-07-26",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84926",
       "id_original": "84926"
     },
@@ -3071,7 +3071,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-06-30",
+      "fecha_fin": "2026-07-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
       "id_original": "85446"
     },
@@ -3091,7 +3091,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-30",
-      "fecha_fin": "2026-06-30",
+      "fecha_fin": "2026-07-26",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85527",
       "id_original": "85527"
     },
@@ -3241,7 +3241,7 @@
     "BBVA": 176,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-06-19T10:25:55.573674Z",
+  "ultima_sincronizacion": "2026-06-20T08:56:05.631873Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
