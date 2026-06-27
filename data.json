@@ -2910,6 +2910,26 @@
         "domingo"
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-06-28",
+      "fecha_fin": "2026-06-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84924",
+      "id_original": "84924"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Diarco Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-02",
       "fecha_fin": "2026-07-26",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84925",
@@ -2954,26 +2974,6 @@
       "fecha_fin": "2026-06-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
       "id_original": "85000"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercado Josimar",
-      "porcentaje": 0,
-      "tope_reintegro": 8000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-06-26",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85001",
-      "id_original": "85001"
     },
     {
       "banco": "BBVA",
@@ -3161,7 +3161,7 @@
     "BBVA": 172,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-06-26T09:26:39.539519Z",
+  "ultima_sincronizacion": "2026-06-27T08:35:29.680009Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
