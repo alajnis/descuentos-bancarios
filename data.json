@@ -42,6 +42,66 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Berlin Berlin",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86039",
+      "id_original": "86039"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Annie",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86040",
+      "id_original": "86040"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Feliz Navidad De M",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86041",
+      "id_original": "86041"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Cinefanblack  Cinemark",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -1582,6 +1642,46 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Teatro Premier 2",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86042",
+      "id_original": "86042"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Music Mansion",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86043",
+      "id_original": "86043"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Farmacia Social",
       "porcentaje": 10,
       "tope_reintegro": 10000,
@@ -1661,6 +1761,26 @@
       "fecha_fin": "2026-07-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85687",
       "id_original": "85687"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rocky",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86038",
+      "id_original": "86038"
     },
     {
       "banco": "BBVA",
@@ -2486,12 +2606,12 @@
       "id_original": "86245"
     }
   ],
-  "total": 127,
+  "total": 133,
   "por_banco": {
-    "BBVA": 127,
+    "BBVA": 133,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-02T08:55:41.527956Z",
+  "ultima_sincronizacion": "2026-07-03T09:17:30.069815Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
