@@ -2604,14 +2604,234 @@
       "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86245",
       "id_original": "86245"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Nike",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-04",
+      "fecha_fin": "2026-07-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85669",
+      "id_original": "85669"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Dexter",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-24",
+      "fecha_fin": "2026-07-15",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85984",
+      "id_original": "85984"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Moov",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-06-24",
+      "fecha_fin": "2026-07-15",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85985",
+      "id_original": "85985"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Caro Cuore",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86077",
+      "id_original": "86077"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Baby Cottons",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86078",
+      "id_original": "86078"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Sport 78",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86079",
+      "id_original": "86079"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Topper",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86080",
+      "id_original": "86080"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Under Armour",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86081",
+      "id_original": "86081"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rapsodia",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86082",
+      "id_original": "86082"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Champion",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86083",
+      "id_original": "86083"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Mizuno",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86084",
+      "id_original": "86084"
     }
   ],
-  "total": 133,
+  "total": 144,
   "por_banco": {
-    "BBVA": 133,
+    "BBVA": 144,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-03T09:17:30.069815Z",
+  "ultima_sincronizacion": "2026-07-04T08:36:18.964232Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
