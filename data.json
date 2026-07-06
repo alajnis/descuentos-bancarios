@@ -1642,6 +1642,104 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Dash Deportes",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86280",
+      "id_original": "86280"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Macowens",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86281",
+      "id_original": "86281"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Equus",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86282",
+      "id_original": "86282"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Devre",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86283",
+      "id_original": "86283"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rever Pass",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86284",
+      "id_original": "86284"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Express Moda",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86285",
+      "id_original": "86285"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Grid",
+      "porcentaje": 20,
+      "tope_reintegro": 40000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86286",
+      "id_original": "86286"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Teatro Premier 2",
       "porcentaje": 15,
       "tope_reintegro": null,
@@ -2826,12 +2924,12 @@
       "id_original": "86084"
     }
   ],
-  "total": 144,
+  "total": 151,
   "por_banco": {
-    "BBVA": 144,
+    "BBVA": 151,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-05T08:52:17.574017Z",
+  "ultima_sincronizacion": "2026-07-06T10:20:49.021568Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
