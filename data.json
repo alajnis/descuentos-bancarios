@@ -1670,20 +1670,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Equus",
-      "porcentaje": 20,
-      "tope_reintegro": 40000,
-      "dias_vigencia": [
-        "martes"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-07",
-      "fecha_fin": "2026-07-28",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86282",
-      "id_original": "86282"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Devre",
       "porcentaje": 20,
       "tope_reintegro": 40000,
@@ -1751,6 +1737,20 @@
       "fecha_fin": "2026-07-28",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86287",
       "id_original": "86287"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Top Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86288",
+      "id_original": "86288"
     },
     {
       "banco": "BBVA",
@@ -1782,20 +1782,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Equus",
-      "porcentaje": 20,
-      "tope_reintegro": 40000,
-      "dias_vigencia": [
-        "martes"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-07",
-      "fecha_fin": "2026-07-28",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86282",
-      "id_original": "86282"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Devre",
       "porcentaje": 20,
       "tope_reintegro": 40000,
@@ -1863,6 +1849,20 @@
       "fecha_fin": "2026-07-28",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86287",
       "id_original": "86287"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Top Sport",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "martes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-07",
+      "fecha_fin": "2026-07-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86288",
+      "id_original": "86288"
     },
     {
       "banco": "BBVA",
@@ -3315,7 +3315,7 @@
     "BBVA": 173,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-07T09:40:18.392934Z",
+  "ultima_sincronizacion": "2026-07-08T08:27:29.169793Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
