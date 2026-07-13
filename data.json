@@ -22,26 +22,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Luli Pampin",
-      "porcentaje": 20,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-04-13",
-      "fecha_fin": "2026-07-12",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84534",
-      "id_original": "84534"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Berlin Berlin",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -3310,12 +3290,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 173,
+  "total": 172,
   "por_banco": {
-    "BBVA": 173,
+    "BBVA": 172,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-12T08:16:34.917047Z",
+  "ultima_sincronizacion": "2026-07-13T09:25:59.174478Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
