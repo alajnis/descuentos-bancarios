@@ -1942,6 +1942,46 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Megatlon",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-09-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86252",
+      "id_original": "86252"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Fiter",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-09-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86253",
+      "id_original": "86253"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Farmacia Social",
       "porcentaje": 10,
       "tope_reintegro": 10000,
@@ -3426,12 +3466,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 180,
+  "total": 182,
   "por_banco": {
-    "BBVA": 180,
+    "BBVA": 182,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-17T08:09:13.656655Z",
+  "ultima_sincronizacion": "2026-07-18T07:48:55.523120Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
