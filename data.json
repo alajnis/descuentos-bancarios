@@ -2344,26 +2344,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "K4os Gira Interior",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-05-15",
-      "fecha_fin": "2026-07-18",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85016",
-      "id_original": "85016"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Camilo",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3466,12 +3446,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 182,
+  "total": 181,
   "por_banco": {
-    "BBVA": 182,
+    "BBVA": 181,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-18T07:48:55.523120Z",
+  "ultima_sincronizacion": "2026-07-19T08:16:49.749884Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
