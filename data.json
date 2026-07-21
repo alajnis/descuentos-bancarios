@@ -2844,6 +2844,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Coto Exclusivo pagos con NFC desde tu celular",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de débito BBVA",
+      "fecha_inicio": "2026-02-25",
+      "fecha_fin": "2026-08-27",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86643",
+      "id_original": "86643"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Farmaonline",
       "porcentaje": 0,
       "tope_reintegro": 10000,
@@ -3446,12 +3466,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 181,
+  "total": 182,
   "por_banco": {
-    "BBVA": 181,
+    "BBVA": 182,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-20T08:56:51.863473Z",
+  "ultima_sincronizacion": "2026-07-21T08:27:37.294402Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
