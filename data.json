@@ -1996,6 +1996,20 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Farmaonline",
+      "porcentaje": 10,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-07-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85970",
+      "id_original": "85970"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Rouge",
       "porcentaje": 10,
       "tope_reintegro": 20000,
@@ -2478,7 +2492,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2025-07-01",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=76010",
       "id_original": "76010"
     },
@@ -2861,20 +2875,6 @@
       "fecha_fin": "2026-08-27",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86643",
       "id_original": "86643"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Farmaonline",
-      "porcentaje": 0,
-      "tope_reintegro": 10000,
-      "dias_vigencia": [
-        "lunes"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-07-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85970",
-      "id_original": "85970"
     },
     {
       "banco": "BBVA",
@@ -3471,7 +3471,7 @@
     "BBVA": 182,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-21T08:27:37.294402Z",
+  "ultima_sincronizacion": "2026-07-22T08:28:11.584416Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
