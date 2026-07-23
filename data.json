@@ -2478,6 +2478,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Silvestre Y La Naranja",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-10-17",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86641",
+      "id_original": "86641"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Cinemark 2x1",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3466,12 +3486,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 182,
+  "total": 183,
   "por_banco": {
-    "BBVA": 182,
+    "BBVA": 183,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-22T08:28:11.584416Z",
+  "ultima_sincronizacion": "2026-07-23T08:28:54.966848Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
