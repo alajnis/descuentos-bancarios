@@ -2898,6 +2898,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Supermercados La Reina Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-07-06",
+      "fecha_fin": "2026-10-02",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86777",
+      "id_original": "86777"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Parfumerie",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -3486,12 +3506,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 183,
+  "total": 184,
   "por_banco": {
-    "BBVA": 183,
+    "BBVA": 184,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-24T08:26:28.410143Z",
+  "ultima_sincronizacion": "2026-07-25T08:05:14.296362Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
