@@ -2572,7 +2572,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-03-01",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83911",
       "id_original": "83911"
     },
@@ -2652,7 +2652,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
       "id_original": "85000"
     },
@@ -2672,7 +2672,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
       "id_original": "85446"
     },
@@ -2712,7 +2712,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-06-01",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85529",
       "id_original": "85529"
     },
@@ -2752,7 +2752,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-06-03",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86275",
       "id_original": "86275"
     },
@@ -2772,7 +2772,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-21",
-      "fecha_fin": "2026-07-31",
+      "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86276",
       "id_original": "86276"
     },
@@ -3451,7 +3451,7 @@
     "BBVA": 181,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-27T09:51:13.034164Z",
+  "ultima_sincronizacion": "2026-07-28T08:32:49.734768Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
