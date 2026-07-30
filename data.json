@@ -1838,6 +1838,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Laura &amp; Brenda",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-31",
+      "fecha_fin": "2026-10-14",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86905",
+      "id_original": "86905"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Iron Maiden",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3386,12 +3406,12 @@
       "id_original": "86164"
     }
   ],
-  "total": 172,
+  "total": 173,
   "por_banco": {
-    "BBVA": 172,
+    "BBVA": 173,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-07-29T08:39:38.903807Z",
+  "ultima_sincronizacion": "2026-07-30T08:25:44.633885Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
