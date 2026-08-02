@@ -3171,7 +3171,7 @@
     "BBVA": 161,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-01T08:19:55.449395Z",
+  "ultima_sincronizacion": "2026-08-02T08:23:01.392956Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
