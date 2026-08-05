@@ -1720,6 +1720,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Mafalda",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-06",
+      "fecha_fin": "2026-12-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86828",
+      "id_original": "86828"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Laura &amp; Brenda",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3186,12 +3206,12 @@
       "id_original": "86084"
     }
   ],
-  "total": 162,
+  "total": 163,
   "por_banco": {
-    "BBVA": 162,
+    "BBVA": 163,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-04T08:35:04.599946Z",
+  "ultima_sincronizacion": "2026-08-05T08:34:51.911513Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
