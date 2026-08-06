@@ -1282,6 +1282,406 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Casa Vigil",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86567",
+      "id_original": "86567"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "La Bistecca",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86568",
+      "id_original": "86568"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Kansas",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86569",
+      "id_original": "86569"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Angelica Cocina Maestra",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86570",
+      "id_original": "86570"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "5 suelos - Cocina de finca",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86571",
+      "id_original": "86571"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Nika Sushi",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86572",
+      "id_original": "86572"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Chipiron",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86573",
+      "id_original": "86573"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rock And Ribs",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86574",
+      "id_original": "86574"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Croque Madame",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86575",
+      "id_original": "86575"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "La Parolaccia",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86576",
+      "id_original": "86576"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Mare By Fran",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86577",
+      "id_original": "86577"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "La Piccola",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86578",
+      "id_original": "86578"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Mostrador Santa Teresita",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86579",
+      "id_original": "86579"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Terrazas De Los Andes",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86580",
+      "id_original": "86580"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Burger54",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86582",
+      "id_original": "86582"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "The Food Truck Store",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86583",
+      "id_original": "86583"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Isla Ba Corona",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86584",
+      "id_original": "86584"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Hatsu Sushi",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86585",
+      "id_original": "86585"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "República",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86586",
+      "id_original": "86586"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Chachingo",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86587",
+      "id_original": "86587"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Philo Cafe",
       "porcentaje": 20,
       "tope_reintegro": 20000,
@@ -1459,6 +1859,66 @@
       "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86875",
       "id_original": "86875"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Tona Café",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87005",
+      "id_original": "87005"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Yoku Café",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87006",
+      "id_original": "87006"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Praline",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87031",
+      "id_original": "87031"
     },
     {
       "banco": "BBVA",
@@ -3044,174 +3504,14 @@
       "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86827",
       "id_original": "86827"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Caro Cuore",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86077",
-      "id_original": "86077"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Baby Cottons",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86078",
-      "id_original": "86078"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Sport 78",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86079",
-      "id_original": "86079"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Topper",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86080",
-      "id_original": "86080"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Under Armour",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86081",
-      "id_original": "86081"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Rapsodia",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86082",
-      "id_original": "86082"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Champion",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86083",
-      "id_original": "86083"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Mizuno",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86084",
-      "id_original": "86084"
     }
   ],
-  "total": 163,
+  "total": 178,
   "por_banco": {
-    "BBVA": 163,
+    "BBVA": 178,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-05T08:34:51.911513Z",
+  "ultima_sincronizacion": "2026-08-06T08:34:34.635841Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
