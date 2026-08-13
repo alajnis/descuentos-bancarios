@@ -1522,26 +1522,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Rapanui",
-      "porcentaje": 20,
-      "tope_reintegro": 20000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-08-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86669",
-      "id_original": "86669"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Luccianos",
       "porcentaje": 20,
       "tope_reintegro": 15000,
@@ -1559,6 +1539,26 @@
       "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86670",
       "id_original": "86670"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rapanui",
+      "porcentaje": 20,
+      "tope_reintegro": 15000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86671",
+      "id_original": "86671"
     },
     {
       "banco": "BBVA",
@@ -3111,7 +3111,7 @@
     "BBVA": 158,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-12T07:23:07.971178Z",
+  "ultima_sincronizacion": "2026-08-13T07:25:18.152242Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
