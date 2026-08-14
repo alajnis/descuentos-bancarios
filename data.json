@@ -2914,7 +2914,7 @@
       ],
       "metodo_pago": "Tarjetas de débito BBVA",
       "fecha_inicio": "2026-02-25",
-      "fecha_fin": "2026-08-27",
+      "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86643",
       "id_original": "86643"
     },
@@ -3111,7 +3111,7 @@
     "BBVA": 158,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-13T07:25:18.152242Z",
+  "ultima_sincronizacion": "2026-08-14T07:23:22.280646Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
