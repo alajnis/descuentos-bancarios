@@ -2940,6 +2940,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Coto Beneficio exclusivo MODO",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-08-18",
+      "fecha_fin": "2026-08-25",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87185",
+      "id_original": "87185"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Get The Look QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -3106,12 +3126,12 @@
       "id_original": "86827"
     }
   ],
-  "total": 158,
+  "total": 159,
   "por_banco": {
-    "BBVA": 158,
+    "BBVA": 159,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-16T06:38:24.270492Z",
+  "ultima_sincronizacion": "2026-08-17T06:53:12.014593Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
