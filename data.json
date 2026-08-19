@@ -422,7 +422,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Hatsu Sushi",
+      "comercio": "Green Eat",
       "porcentaje": 20,
       "tope_reintegro": 20000,
       "dias_vigencia": [
@@ -437,14 +437,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86585",
-      "id_original": "86585"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86659",
+      "id_original": "86659"
     },
     {
       "banco": "BBVA",
-      "comercio": "República",
+      "comercio": "Malcriado",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -457,14 +457,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86586",
-      "id_original": "86586"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86660",
+      "id_original": "86660"
     },
     {
       "banco": "BBVA",
-      "comercio": "Chachingo",
+      "comercio": "Bruce",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -477,8 +477,8 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86587",
-      "id_original": "86587"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86661",
+      "id_original": "86661"
     },
     {
       "banco": "BBVA",
@@ -822,7 +822,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Hatsu Sushi",
+      "comercio": "Green Eat",
       "porcentaje": 20,
       "tope_reintegro": 20000,
       "dias_vigencia": [
@@ -837,14 +837,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86585",
-      "id_original": "86585"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86659",
+      "id_original": "86659"
     },
     {
       "banco": "BBVA",
-      "comercio": "República",
+      "comercio": "Malcriado",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -857,14 +857,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86586",
-      "id_original": "86586"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86660",
+      "id_original": "86660"
     },
     {
       "banco": "BBVA",
-      "comercio": "Chachingo",
+      "comercio": "Bruce",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -877,8 +877,8 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86587",
-      "id_original": "86587"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86661",
+      "id_original": "86661"
     },
     {
       "banco": "BBVA",
@@ -1222,7 +1222,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Hatsu Sushi",
+      "comercio": "Green Eat",
       "porcentaje": 20,
       "tope_reintegro": 20000,
       "dias_vigencia": [
@@ -1237,14 +1237,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86585",
-      "id_original": "86585"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86659",
+      "id_original": "86659"
     },
     {
       "banco": "BBVA",
-      "comercio": "República",
+      "comercio": "Malcriado",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -1257,14 +1257,14 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86586",
-      "id_original": "86586"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86660",
+      "id_original": "86660"
     },
     {
       "banco": "BBVA",
-      "comercio": "Chachingo",
+      "comercio": "Bruce",
       "porcentaje": 20,
-      "tope_reintegro": null,
+      "tope_reintegro": 20000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -1277,8 +1277,8 @@
       "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-01",
       "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86587",
-      "id_original": "86587"
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86661",
+      "id_original": "86661"
     },
     {
       "banco": "BBVA",
@@ -3131,7 +3131,7 @@
     "BBVA": 159,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-18T06:41:00.097048Z",
+  "ultima_sincronizacion": "2026-08-19T06:41:29.220801Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
