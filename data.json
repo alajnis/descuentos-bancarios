@@ -1860,26 +1860,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Rawayana",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-02-02",
-      "fecha_fin": "2026-08-20",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83413",
-      "id_original": "83413"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Arcangel",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -1897,6 +1877,26 @@
       "fecha_fin": "2026-08-29",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83817",
       "id_original": "83817"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rawayana",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-21",
+      "fecha_fin": "2026-08-21",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84391",
+      "id_original": "84391"
     },
     {
       "banco": "BBVA",
@@ -2260,26 +2260,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Rawayana",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-02-02",
-      "fecha_fin": "2026-08-20",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83413",
-      "id_original": "83413"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Arcangel",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2297,6 +2277,26 @@
       "fecha_fin": "2026-08-29",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83817",
       "id_original": "83817"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Rawayana",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-08-21",
+      "fecha_fin": "2026-08-21",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84391",
+      "id_original": "84391"
     },
     {
       "banco": "BBVA",
@@ -3131,7 +3131,7 @@
     "BBVA": 159,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-20T06:43:33.195697Z",
+  "ultima_sincronizacion": "2026-08-21T06:43:44.310721Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
