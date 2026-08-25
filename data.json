@@ -22,6 +22,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Rocky",
+      "porcentaje": 30,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-08-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86038",
+      "id_original": "86038"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Berlin Berlin",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -1740,26 +1760,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Rocky",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86038",
-      "id_original": "86038"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Ludovico Einaudi",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -1800,7 +1800,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Laura &amp; Brenda",
+      "comercio": "Laura Y Brenda",
       "porcentaje": 0,
       "tope_reintegro": null,
       "dias_vigencia": [
@@ -3131,7 +3131,7 @@
     "BBVA": 159,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-24T06:56:12.984810Z",
+  "ultima_sincronizacion": "2026-08-25T06:44:37.466544Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
