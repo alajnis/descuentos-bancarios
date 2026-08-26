@@ -2,26 +2,6 @@
   "descuentos": [
     {
       "banco": "BBVA",
-      "comercio": "Cabify",
-      "porcentaje": 100,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-02-01",
-      "fecha_fin": "2026-12-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83645",
-      "id_original": "83645"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Rocky",
       "porcentaje": 30,
       "tope_reintegro": null,
@@ -2940,26 +2920,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Coto Beneficio exclusivo MODO",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-08-18",
-      "fecha_fin": "2026-08-25",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87185",
-      "id_original": "87185"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Get The Look QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -2977,26 +2937,6 @@
       "fecha_fin": "2026-08-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86073",
       "id_original": "86073"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Get The Look QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-08-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86074",
-      "id_original": "86074"
     },
     {
       "banco": "BBVA",
@@ -3126,12 +3066,12 @@
       "id_original": "86827"
     }
   ],
-  "total": 159,
+  "total": 156,
   "por_banco": {
-    "BBVA": 159,
+    "BBVA": 156,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-25T06:44:37.466544Z",
+  "ultima_sincronizacion": "2026-08-26T06:47:44.147766Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
