@@ -1853,26 +1853,6 @@
         "domingo"
       ],
       "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-03-05",
-      "fecha_fin": "2026-08-29",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83817",
-      "id_original": "83817"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Arcangel",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-29",
       "fecha_fin": "2026-08-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84389",
@@ -2197,6 +2177,26 @@
       "fecha_fin": "2026-11-04",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86663",
       "id_original": "86663"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cosquin Rock",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-30",
+      "fecha_fin": "2026-12-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86734",
+      "id_original": "86734"
     },
     {
       "banco": "BBVA",
@@ -2253,26 +2253,6 @@
         "domingo"
       ],
       "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-03-05",
-      "fecha_fin": "2026-08-29",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83817",
-      "id_original": "83817"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Arcangel",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-08-29",
       "fecha_fin": "2026-08-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84389",
@@ -2597,6 +2577,26 @@
       "fecha_fin": "2026-11-04",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86663",
       "id_original": "86663"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Cosquin Rock",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-07-30",
+      "fecha_fin": "2026-12-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86734",
+      "id_original": "86734"
     },
     {
       "banco": "BBVA",
@@ -3071,7 +3071,7 @@
     "BBVA": 156,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-08-29T12:22:01.912004Z",
+  "ultima_sincronizacion": "2026-08-30T11:20:40.066316Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
