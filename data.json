@@ -1802,6 +1802,46 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Rapanui",
+      "porcentaje": 20,
+      "tope_reintegro": 15000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-09-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87261",
+      "id_original": "87261"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Luccianos",
+      "porcentaje": 20,
+      "tope_reintegro": 15000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-09-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87262",
+      "id_original": "87262"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Megatlon",
       "porcentaje": 15,
       "tope_reintegro": null,
@@ -2506,7 +2546,7 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Changomas Beneficio exclusivo MODO",
+      "comercio": "Changomas QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 25000,
       "dias_vigencia": [
@@ -2832,12 +2872,12 @@
       "id_original": "86827"
     }
   ],
-  "total": 144,
+  "total": 146,
   "por_banco": {
-    "BBVA": 144,
+    "BBVA": 146,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-01T11:10:38.471337Z",
+  "ultima_sincronizacion": "2026-09-02T10:43:27.084238Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
