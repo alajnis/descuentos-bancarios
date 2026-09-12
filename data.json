@@ -2366,26 +2366,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Wwe 2026",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-05-07",
-      "fecha_fin": "2026-09-11",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84632",
-      "id_original": "84632"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Diego Torres Gira Interior",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2603,6 +2583,26 @@
       "fecha_fin": "2026-11-15",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87187",
       "id_original": "87187"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Beth Gibbons.",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-10",
+      "fecha_fin": "2027-05-27",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87657",
+      "id_original": "87657"
     },
     {
       "banco": "BBVA",
@@ -2766,26 +2766,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Wwe 2026",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-05-07",
-      "fecha_fin": "2026-09-11",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84632",
-      "id_original": "84632"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Diego Torres Gira Interior",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3003,6 +2983,26 @@
       "fecha_fin": "2026-11-15",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87187",
       "id_original": "87187"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Beth Gibbons.",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-10",
+      "fecha_fin": "2027-05-27",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87657",
+      "id_original": "87657"
     },
     {
       "banco": "BBVA",
@@ -3537,7 +3537,7 @@
     "BBVA": 179,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-11T10:41:18.949922Z",
+  "ultima_sincronizacion": "2026-09-12T10:10:25.315126Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
