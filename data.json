@@ -2226,26 +2226,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Caifanes",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-09-23",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83280",
-      "id_original": "83280"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Lindsey Stirling",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2603,6 +2583,26 @@
       "fecha_fin": "2027-05-27",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87657",
       "id_original": "87657"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "K4os Gira Interior",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": "2026-11-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87676",
+      "id_original": "87676"
     },
     {
       "banco": "BBVA",
@@ -2626,26 +2626,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Caifanes",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-09-23",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83280",
-      "id_original": "83280"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Lindsey Stirling",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3003,6 +2983,26 @@
       "fecha_fin": "2027-05-27",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87657",
       "id_original": "87657"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "K4os Gira Interior",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": "2026-11-28",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87676",
+      "id_original": "87676"
     },
     {
       "banco": "BBVA",
@@ -3537,7 +3537,7 @@
     "BBVA": 179,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-23T10:51:19.706746Z",
+  "ultima_sincronizacion": "2026-09-24T11:11:12.767077Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
