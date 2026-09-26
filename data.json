@@ -122,6 +122,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Coto QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87624",
+      "id_original": "87624"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "La Escondida Parrilla",
       "porcentaje": 20,
       "tope_reintegro": 30000,
@@ -3266,26 +3286,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Coto NFC",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de débito BBVA",
-      "fecha_inicio": "2026-02-25",
-      "fecha_fin": "2026-09-25",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86643",
-      "id_original": "86643"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Supermercados La Reina QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 25000,
@@ -3303,26 +3303,6 @@
       "fecha_fin": "2026-10-02",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86777",
       "id_original": "86777"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Coto QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-09-01",
-      "fecha_fin": "2026-10-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87624",
-      "id_original": "87624"
     },
     {
       "banco": "BBVA",
@@ -3532,12 +3512,12 @@
       "id_original": "87445"
     }
   ],
-  "total": 179,
+  "total": 178,
   "por_banco": {
-    "BBVA": 179,
+    "BBVA": 178,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-25T11:15:47.426792Z",
+  "ultima_sincronizacion": "2026-09-26T10:53:02.668322Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
