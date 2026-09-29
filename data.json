@@ -122,6 +122,126 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Jumbo QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2025-12-02",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84055",
+      "id_original": "84055"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Makro QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2025-12-04",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84056",
+      "id_original": "84056"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados La Anonima QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 15000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-03-06",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84296",
+      "id_original": "84296"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Changomas QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
+      "id_original": "85446"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Disco QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86277",
+      "id_original": "86277"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados Vea QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-07-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86278",
+      "id_original": "86278"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Coto QR Modo",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -2022,6 +2142,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Diarco QR Modo",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-09-05",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88008",
+      "id_original": "88008"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Megatlon",
       "porcentaje": 15,
       "tope_reintegro": null,
@@ -2059,6 +2199,26 @@
       "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86253",
       "id_original": "86253"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Carrefour QR Modo",
+      "porcentaje": 10,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-09-23",
+      "fecha_fin": "2026-09-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88004",
+      "id_original": "88004"
     },
     {
       "banco": "BBVA",
@@ -3060,69 +3220,9 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-03-01",
-      "fecha_fin": "2026-09-30",
+      "fecha_fin": "2026-10-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83911",
       "id_original": "83911"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Jumbo QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2025-12-02",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84055",
-      "id_original": "84055"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Makro QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 20000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2025-12-04",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84056",
-      "id_original": "84056"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados La Anonima QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 15000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-03-06",
-      "fecha_fin": "2026-10-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84296",
-      "id_original": "84296"
     },
     {
       "banco": "BBVA",
@@ -3143,26 +3243,6 @@
       "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
       "id_original": "85000"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Changomas QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
-      "id_original": "85446"
     },
     {
       "banco": "BBVA",
@@ -3243,46 +3323,6 @@
       "fecha_fin": "2026-09-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86275",
       "id_original": "86275"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Disco QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86277",
-      "id_original": "86277"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados Vea QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86278",
-      "id_original": "86278"
     },
     {
       "banco": "BBVA",
@@ -3512,12 +3552,12 @@
       "id_original": "87445"
     }
   ],
-  "total": 178,
+  "total": 180,
   "por_banco": {
-    "BBVA": 178,
+    "BBVA": 180,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-28T13:01:42.658110Z",
+  "ultima_sincronizacion": "2026-09-29T12:12:51.297762Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
