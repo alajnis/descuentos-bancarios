@@ -42,6 +42,46 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Supermercados Toledo QR Modo",
+      "porcentaje": 30,
+      "tope_reintegro": 12000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-06-03",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86275",
+      "id_original": "86275"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados La Reina QR Modo",
+      "porcentaje": 25,
+      "tope_reintegro": 25000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-07-06",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86777",
+      "id_original": "86777"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Berlin Berlin",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -202,6 +242,66 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Supercoop QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85528",
+      "id_original": "85528"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados Kilbel QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 10000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-06-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85529",
+      "id_original": "85529"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Supermercados La Gallega QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85530",
+      "id_original": "85530"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Disco QR Modo",
       "porcentaje": 20,
       "tope_reintegro": 25000,
@@ -259,6 +359,26 @@
       "fecha_fin": "2026-10-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87624",
       "id_original": "87624"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Mayorista Nini QR Modo",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-07",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88074",
+      "id_original": "88074"
     },
     {
       "banco": "BBVA",
@@ -2142,6 +2262,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Supermercados Toledo QR Modo",
+      "porcentaje": 15,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-05-08",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
+      "id_original": "85000"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Diarco QR Modo",
       "porcentaje": 15,
       "tope_reintegro": null,
@@ -3226,126 +3366,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Supermercados Toledo QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85000",
-      "id_original": "85000"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supercoop QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 10000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-10-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85528",
-      "id_original": "85528"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados Kilbel QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 10000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-06-01",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85529",
-      "id_original": "85529"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados La Gallega QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 20000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-10-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85530",
-      "id_original": "85530"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados Toledo QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 12000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-06-03",
-      "fecha_fin": "2026-09-30",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86275",
-      "id_original": "86275"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Supermercados La Reina QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": 25000,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-07-06",
-      "fecha_fin": "2026-10-02",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86777",
-      "id_original": "86777"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Farmacia Selma",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -3552,12 +3572,12 @@
       "id_original": "87445"
     }
   ],
-  "total": 180,
+  "total": 181,
   "por_banco": {
-    "BBVA": 180,
+    "BBVA": 181,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-09-29T12:12:51.297762Z",
+  "ultima_sincronizacion": "2026-09-30T11:59:18.756241Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
