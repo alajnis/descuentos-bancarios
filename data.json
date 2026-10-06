@@ -82,6 +82,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Coto QR Modo",
+      "porcentaje": 25,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito y débito BBVA",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-10-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87624",
+      "id_original": "87624"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Berlin Berlin",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -339,26 +359,6 @@
       "fecha_fin": "2026-10-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86278",
       "id_original": "86278"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Coto QR Modo",
-      "porcentaje": 20,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito y débito BBVA",
-      "fecha_inicio": "2026-09-01",
-      "fecha_fin": "2026-10-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87624",
-      "id_original": "87624"
     },
     {
       "banco": "BBVA",
@@ -2970,7 +2970,7 @@
     "BBVA": 150,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-05T13:43:48.641824Z",
+  "ultima_sincronizacion": "2026-10-06T12:49:55.822695Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
