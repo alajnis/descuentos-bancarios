@@ -2012,26 +2012,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Laura Y Brenda",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-07-31",
-      "fecha_fin": "2026-10-14",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86905",
-      "id_original": "86905"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Iron Maiden",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2886,46 +2866,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Parfumerie",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-10-01",
-      "fecha_fin": "2026-10-14",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87986",
-      "id_original": "87986"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Juleriaque",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-10-01",
-      "fecha_fin": "2026-10-14",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87987",
-      "id_original": "87987"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Las Margaritas",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2965,12 +2905,12 @@
       "id_original": "87167"
     }
   ],
-  "total": 150,
+  "total": 147,
   "por_banco": {
-    "BBVA": 150,
+    "BBVA": 147,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-14T11:17:31.869677Z",
+  "ultima_sincronizacion": "2026-10-15T10:55:27.219173Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
