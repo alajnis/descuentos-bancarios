@@ -2812,26 +2812,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Cinemark Tienda QR Modo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2025-07-01",
-      "fecha_fin": "2026-12-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=76010",
-      "id_original": "76010"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Supermercados Dia QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -2905,12 +2885,12 @@
       "id_original": "87167"
     }
   ],
-  "total": 147,
+  "total": 146,
   "por_banco": {
-    "BBVA": 147,
+    "BBVA": 146,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-20T10:58:32.533525Z",
+  "ultima_sincronizacion": "2026-10-21T11:15:07.759217Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
