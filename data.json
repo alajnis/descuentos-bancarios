@@ -142,26 +142,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Annie",
-      "porcentaje": 20,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-09-01",
-      "fecha_fin": "2026-10-22",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87443",
-      "id_original": "87443"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Club Black  Cinemark",
       "porcentaje": 20,
       "tope_reintegro": null,
@@ -2885,12 +2865,12 @@
       "id_original": "87167"
     }
   ],
-  "total": 146,
+  "total": 145,
   "por_banco": {
-    "BBVA": 146,
+    "BBVA": 145,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-22T11:13:43.944760Z",
+  "ultima_sincronizacion": "2026-10-23T11:05:22.548347Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
