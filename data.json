@@ -2112,26 +2112,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Camilo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-05-22",
-      "fecha_fin": "2026-10-25",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85037",
-      "id_original": "85037"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Slayer",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2389,6 +2369,26 @@
       "fecha_fin": "2026-10-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87806",
       "id_original": "87806"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Latin Merch S.A",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-12-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87807",
+      "id_original": "87807"
     },
     {
       "banco": "BBVA",
@@ -2512,26 +2512,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Camilo",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-05-22",
-      "fecha_fin": "2026-10-25",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85037",
-      "id_original": "85037"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Slayer",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -2792,6 +2772,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Latin Merch S.A",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-12-31",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87807",
+      "id_original": "87807"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Supermercados Dia QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -2870,7 +2870,7 @@
     "BBVA": 145,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-25T10:49:19.486808Z",
+  "ultima_sincronizacion": "2026-10-26T12:19:57.099904Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
