@@ -176,7 +176,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2025-12-02",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-11-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84055",
       "id_original": "84055"
     },
@@ -196,7 +196,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2025-12-04",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-11-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84056",
       "id_original": "84056"
     },
@@ -216,7 +216,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-03-06",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84296",
       "id_original": "84296"
     },
@@ -236,7 +236,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85446",
       "id_original": "85446"
     },
@@ -256,7 +256,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=85528",
       "id_original": "85528"
     },
@@ -316,7 +316,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-11-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86277",
       "id_original": "86277"
     },
@@ -336,7 +336,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-07-01",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-11-30",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86278",
       "id_original": "86278"
     },
@@ -2826,7 +2826,7 @@
       ],
       "metodo_pago": "Tarjetas de crédito y débito BBVA",
       "fecha_inicio": "2026-03-01",
-      "fecha_fin": "2026-10-31",
+      "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=83911",
       "id_original": "83911"
     },
@@ -2890,7 +2890,7 @@
     "BBVA": 146,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-10-28T12:12:10.167726Z",
+  "ultima_sincronizacion": "2026-10-29T12:21:53.106272Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
