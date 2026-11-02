@@ -389,26 +389,6 @@
         "domingo"
       ],
       "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-10-26",
-      "fecha_fin": "2026-11-01",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88512",
-      "id_original": "88512"
-    },
-    {
-      "banco": "BBVA",
-      "comercio": "Astor Piazzolla Eterno",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
       "fecha_inicio": "2026-11-02",
       "fecha_fin": "2027-01-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88513",
@@ -1249,12 +1229,12 @@
       "id_original": "86294"
     }
   ],
-  "total": 63,
+  "total": 62,
   "por_banco": {
-    "BBVA": 63,
+    "BBVA": 62,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-11-01T12:44:12.667527Z",
+  "ultima_sincronizacion": "2026-11-02T14:52:16.780041Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
