@@ -222,9 +222,9 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "La Escondida Parrilla",
+      "comercio": "Tucson",
       "porcentaje": 20,
-      "tope_reintegro": 30000,
+      "tope_reintegro": 50000,
       "dias_vigencia": [
         "lunes",
         "martes",
@@ -235,10 +235,85 @@
         "domingo"
       ],
       "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-08-01",
-      "fecha_fin": "2027-01-31",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87151",
-      "id_original": "87151"
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88673",
+      "id_original": "88673"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Niño Gordo",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88674",
+      "id_original": "88674"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "El Carnicero Jose",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88675",
+      "id_original": "88675"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Nucha",
+      "porcentaje": 20,
+      "tope_reintegro": 20000,
+      "dias_vigencia": [
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88676",
+      "id_original": "88676"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Piegari Carnes",
+      "porcentaje": 20,
+      "tope_reintegro": 50000,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-30",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88679",
+      "id_original": "88679"
     },
     {
       "banco": "BBVA",
@@ -1229,12 +1304,12 @@
       "id_original": "86294"
     }
   ],
-  "total": 62,
+  "total": 66,
   "por_banco": {
-    "BBVA": 62,
+    "BBVA": 66,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-11-02T14:52:16.780041Z",
+  "ultima_sincronizacion": "2026-11-03T13:41:33.471497Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
