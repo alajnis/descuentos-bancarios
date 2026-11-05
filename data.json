@@ -651,26 +651,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Diego Torres  Mdq",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-11-04",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86663",
-      "id_original": "86663"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Cosquin Rock",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -868,6 +848,26 @@
       "fecha_fin": "2026-12-31",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87808",
       "id_original": "87808"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "Echoes In The Round",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-25",
+      "fecha_fin": "2026-12-12",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87853",
+      "id_original": "87853"
     },
     {
       "banco": "BBVA",
@@ -1051,26 +1051,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Diego Torres  Mdq",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-11-04",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=86663",
-      "id_original": "86663"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Cosquin Rock",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -1271,6 +1251,26 @@
     },
     {
       "banco": "BBVA",
+      "comercio": "Echoes In The Round",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-25",
+      "fecha_fin": "2026-12-12",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87853",
+      "id_original": "87853"
+    },
+    {
+      "banco": "BBVA",
       "comercio": "Supermercados Dia QR Modo",
       "porcentaje": 0,
       "tope_reintegro": 20000,
@@ -1309,7 +1309,7 @@
     "BBVA": 66,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-11-04T13:50:39.559456Z",
+  "ultima_sincronizacion": "2026-11-05T14:03:33.063900Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
