@@ -491,26 +491,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Fito Paez Gira Interior",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-04-29",
-      "fecha_fin": "2026-11-05",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84603",
-      "id_original": "84603"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Ed Sheeran En Huracan",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -868,6 +848,26 @@
       "fecha_fin": "2026-12-12",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87853",
       "id_original": "87853"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "K4os",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-28",
+      "fecha_fin": "2026-12-15",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88016",
+      "id_original": "88016"
     },
     {
       "banco": "BBVA",
@@ -891,26 +891,6 @@
     },
     {
       "banco": "BBVA",
-      "comercio": "Fito Paez Gira Interior",
-      "porcentaje": 0,
-      "tope_reintegro": null,
-      "dias_vigencia": [
-        "lunes",
-        "martes",
-        "miércoles",
-        "jueves",
-        "viernes",
-        "sábado",
-        "domingo"
-      ],
-      "metodo_pago": "Tarjetas de crédito BBVA",
-      "fecha_inicio": "2026-04-29",
-      "fecha_fin": "2026-11-05",
-      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=84603",
-      "id_original": "84603"
-    },
-    {
-      "banco": "BBVA",
       "comercio": "Ed Sheeran En Huracan",
       "porcentaje": 0,
       "tope_reintegro": null,
@@ -1268,6 +1248,26 @@
       "fecha_fin": "2026-12-12",
       "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=87853",
       "id_original": "87853"
+    },
+    {
+      "banco": "BBVA",
+      "comercio": "K4os",
+      "porcentaje": 0,
+      "tope_reintegro": null,
+      "dias_vigencia": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "domingo"
+      ],
+      "metodo_pago": "Tarjetas de crédito BBVA",
+      "fecha_inicio": "2026-09-28",
+      "fecha_fin": "2026-12-15",
+      "link_detalle": "https://www.bbva.com.ar/beneficios/beneficio?id=88016",
+      "id_original": "88016"
     },
     {
       "banco": "BBVA",
@@ -1309,7 +1309,7 @@
     "BBVA": 66,
     "SANTANDER": 0
   },
-  "ultima_sincronizacion": "2026-11-05T14:03:33.063900Z",
+  "ultima_sincronizacion": "2026-11-06T13:47:47.936744Z",
   "fuentes": [
     "BBVA API Interna",
     "Santander BFF API"
